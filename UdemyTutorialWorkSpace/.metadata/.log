@@ -1,0 +1,572 @@
+!SESSION 2018-06-08 22:13:05.886 -----------------------------------------------
+eclipse.buildId=4.4.2.M20150204-1700
+java.version=1.8.0_162
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_US
+Framework arguments:  -product org.eclipse.epp.package.java.product
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.java.product
+
+!ENTRY org.eclipse.egit.ui 2 0 2018-06-08 22:14:20.337
+!MESSAGE Warning: EGit couldn't detect the installation path "gitPrefix" of native Git. Hence EGit can't respect system level
+Git settings which might be configured in ${gitPrefix}/etc/gitconfig under the native Git installation directory.
+The most important of these settings is core.autocrlf. Git for Windows by default sets this parameter to true in
+this system level configuration. The Git installation location can be configured on the
+Team > Git > Configuration preference page's 'System Settings' tab.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.eclipse.egit.ui 2 0 2018-06-08 22:14:20.464
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\Kaushal_PC'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+!SESSION 2018-06-09 11:10:12.426 -----------------------------------------------
+eclipse.buildId=4.4.2.M20150204-1700
+java.version=1.8.0_162
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_US
+Framework arguments:  -product org.eclipse.epp.package.java.product
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.java.product
+
+!ENTRY org.eclipse.egit.ui 2 0 2018-06-09 11:10:45.725
+!MESSAGE Warning: EGit couldn't detect the installation path "gitPrefix" of native Git. Hence EGit can't respect system level
+Git settings which might be configured in ${gitPrefix}/etc/gitconfig under the native Git installation directory.
+The most important of these settings is core.autocrlf. Git for Windows by default sets this parameter to true in
+this system level configuration. The Git installation location can be configured on the
+Team > Git > Configuration preference page's 'System Settings' tab.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.eclipse.egit.ui 2 0 2018-06-09 11:10:45.741
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\Kaushal_PC'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.testng.eclipse 1 0 2018-06-09 11:14:38.247
+!MESSAGE [TestNGLaunchConfigurationDelegate] Launching:
+  Classpath: D:\Software\eclipse-java-luna-SR2-win32-x86_64\eclipse\configuration\org.eclipse.osgi\437\0\.cp\lib\testng-remote.jar D:\UdemyTutorialWorkSpace\UdemySelenium\bin D:\Software\eclipse-java-luna-SR2-win32-x86_64\eclipse\plugins\org.testng_6.14.2.r201802161450.jar D:\Software\eclipse-java-luna-SR2-win32-x86_64\eclipse\plugins\com.beust.jcommander_1.72.0.jar D:\Software\eclipse-java-luna-SR2-win32-x86_64\eclipse\plugins\org.apache-extras.beanshell.bsh_2.0.0.b6.jar D:\Software\eclipse-java-luna-SR2-win32-x86_64\eclipse\plugins\org.yaml.snakeyaml_1.17.0.jar D:\seleniumsoftware\selenium-server-standalone-3.8.0.jar
+  VMArgs:    -ea
+  Class:     org.testng.remote.RemoteTestNG
+  Args:      -serport 52812 -protocol json -d D:\UdemyTutorialWorkSpace\UdemySelenium\test-output C:\Users\KAUSHA~1\AppData\Local\Temp\testng-eclipse--902326460\testng-customsuite.xml
+java -ea -classpath D:\Software\eclipse-java-luna-SR2-win32-x86_64\eclipse\configuration\org.eclipse.osgi\437\0\.cp\lib\testng-remote.jar:D:\UdemyTutorialWorkSpace\UdemySelenium\bin:D:\Software\eclipse-java-luna-SR2-win32-x86_64\eclipse\plugins\org.testng_6.14.2.r201802161450.jar:D:\Software\eclipse-java-luna-SR2-win32-x86_64\eclipse\plugins\com.beust.jcommander_1.72.0.jar:D:\Software\eclipse-java-luna-SR2-win32-x86_64\eclipse\plugins\org.apache-extras.beanshell.bsh_2.0.0.b6.jar:D:\Software\eclipse-java-luna-SR2-win32-x86_64\eclipse\plugins\org.yaml.snakeyaml_1.17.0.jar:D:\seleniumsoftware\selenium-server-standalone-3.8.0.jar org.testng.remote.RemoteTestNG -serport 52812 -protocol json -d D:\UdemyTutorialWorkSpace\UdemySelenium\test-output C:\Users\KAUSHA~1\AppData\Local\Temp\testng-eclipse--902326460\testng-customsuite.xml
+
+!ENTRY org.testng.eclipse 1 0 2018-06-09 11:26:54.476
+!MESSAGE [TestNGLaunchConfigurationDelegate] Launching:
+  Classpath: D:\Software\eclipse-java-luna-SR2-win32-x86_64\eclipse\configuration\org.eclipse.osgi\437\0\.cp\lib\testng-remote.jar D:\UdemyTutorialWorkSpace\UdemySelenium\bin D:\Software\eclipse-java-luna-SR2-win32-x86_64\eclipse\plugins\org.testng_6.14.2.r201802161450.jar D:\Software\eclipse-java-luna-SR2-win32-x86_64\eclipse\plugins\com.beust.jcommander_1.72.0.jar D:\Software\eclipse-java-luna-SR2-win32-x86_64\eclipse\plugins\org.apache-extras.beanshell.bsh_2.0.0.b6.jar D:\Software\eclipse-java-luna-SR2-win32-x86_64\eclipse\plugins\org.yaml.snakeyaml_1.17.0.jar D:\seleniumsoftware\selenium-server-standalone-3.8.0.jar
+  VMArgs:    -ea
+  Class:     org.testng.remote.RemoteTestNG
+  Args:      -serport 53669 -protocol json -d D:\UdemyTutorialWorkSpace\UdemySelenium\test-output C:\Users\KAUSHA~1\AppData\Local\Temp\testng-eclipse--1178919880\testng-customsuite.xml
+java -ea -classpath D:\Software\eclipse-java-luna-SR2-win32-x86_64\eclipse\configuration\org.eclipse.osgi\437\0\.cp\lib\testng-remote.jar:D:\UdemyTutorialWorkSpace\UdemySelenium\bin:D:\Software\eclipse-java-luna-SR2-win32-x86_64\eclipse\plugins\org.testng_6.14.2.r201802161450.jar:D:\Software\eclipse-java-luna-SR2-win32-x86_64\eclipse\plugins\com.beust.jcommander_1.72.0.jar:D:\Software\eclipse-java-luna-SR2-win32-x86_64\eclipse\plugins\org.apache-extras.beanshell.bsh_2.0.0.b6.jar:D:\Software\eclipse-java-luna-SR2-win32-x86_64\eclipse\plugins\org.yaml.snakeyaml_1.17.0.jar:D:\seleniumsoftware\selenium-server-standalone-3.8.0.jar org.testng.remote.RemoteTestNG -serport 53669 -protocol json -d D:\UdemyTutorialWorkSpace\UdemySelenium\test-output C:\Users\KAUSHA~1\AppData\Local\Temp\testng-eclipse--1178919880\testng-customsuite.xml
+
+!ENTRY org.testng.eclipse 1 0 2018-06-09 11:28:18.506
+!MESSAGE [TestNGLaunchConfigurationDelegate] Launching:
+  Classpath: D:\Software\eclipse-java-luna-SR2-win32-x86_64\eclipse\configuration\org.eclipse.osgi\437\0\.cp\lib\testng-remote.jar D:\UdemyTutorialWorkSpace\UdemySelenium\bin D:\Software\eclipse-java-luna-SR2-win32-x86_64\eclipse\plugins\org.testng_6.14.2.r201802161450.jar D:\Software\eclipse-java-luna-SR2-win32-x86_64\eclipse\plugins\com.beust.jcommander_1.72.0.jar D:\Software\eclipse-java-luna-SR2-win32-x86_64\eclipse\plugins\org.apache-extras.beanshell.bsh_2.0.0.b6.jar D:\Software\eclipse-java-luna-SR2-win32-x86_64\eclipse\plugins\org.yaml.snakeyaml_1.17.0.jar D:\seleniumsoftware\selenium-server-standalone-3.8.0.jar
+  VMArgs:    -ea
+  Class:     org.testng.remote.RemoteTestNG
+  Args:      -serport 53908 -protocol json -d D:\UdemyTutorialWorkSpace\UdemySelenium\test-output C:\Users\KAUSHA~1\AppData\Local\Temp\testng-eclipse-1414611159\testng-customsuite.xml
+java -ea -classpath D:\Software\eclipse-java-luna-SR2-win32-x86_64\eclipse\configuration\org.eclipse.osgi\437\0\.cp\lib\testng-remote.jar:D:\UdemyTutorialWorkSpace\UdemySelenium\bin:D:\Software\eclipse-java-luna-SR2-win32-x86_64\eclipse\plugins\org.testng_6.14.2.r201802161450.jar:D:\Software\eclipse-java-luna-SR2-win32-x86_64\eclipse\plugins\com.beust.jcommander_1.72.0.jar:D:\Software\eclipse-java-luna-SR2-win32-x86_64\eclipse\plugins\org.apache-extras.beanshell.bsh_2.0.0.b6.jar:D:\Software\eclipse-java-luna-SR2-win32-x86_64\eclipse\plugins\org.yaml.snakeyaml_1.17.0.jar:D:\seleniumsoftware\selenium-server-standalone-3.8.0.jar org.testng.remote.RemoteTestNG -serport 53908 -protocol json -d D:\UdemyTutorialWorkSpace\UdemySelenium\test-output C:\Users\KAUSHA~1\AppData\Local\Temp\testng-eclipse-1414611159\testng-customsuite.xml
+
+!ENTRY org.testng.eclipse 1 0 2018-06-09 11:53:54.631
+!MESSAGE [TestNGLaunchConfigurationDelegate] Launching:
+  Classpath: D:\Software\eclipse-java-luna-SR2-win32-x86_64\eclipse\configuration\org.eclipse.osgi\437\0\.cp\lib\testng-remote.jar D:\UdemyTutorialWorkSpace\UdemySelenium\bin D:\Software\eclipse-java-luna-SR2-win32-x86_64\eclipse\plugins\org.testng_6.14.2.r201802161450.jar D:\Software\eclipse-java-luna-SR2-win32-x86_64\eclipse\plugins\com.beust.jcommander_1.72.0.jar D:\Software\eclipse-java-luna-SR2-win32-x86_64\eclipse\plugins\org.apache-extras.beanshell.bsh_2.0.0.b6.jar D:\Software\eclipse-java-luna-SR2-win32-x86_64\eclipse\plugins\org.yaml.snakeyaml_1.17.0.jar D:\seleniumsoftware\selenium-server-standalone-3.8.0.jar
+  VMArgs:    -ea
+  Class:     org.testng.remote.RemoteTestNG
+  Args:      -serport 56234 -protocol json -d D:\UdemyTutorialWorkSpace\UdemySelenium\test-output C:\Users\KAUSHA~1\AppData\Local\Temp\testng-eclipse-41248577\testng-customsuite.xml
+java -ea -classpath D:\Software\eclipse-java-luna-SR2-win32-x86_64\eclipse\configuration\org.eclipse.osgi\437\0\.cp\lib\testng-remote.jar:D:\UdemyTutorialWorkSpace\UdemySelenium\bin:D:\Software\eclipse-java-luna-SR2-win32-x86_64\eclipse\plugins\org.testng_6.14.2.r201802161450.jar:D:\Software\eclipse-java-luna-SR2-win32-x86_64\eclipse\plugins\com.beust.jcommander_1.72.0.jar:D:\Software\eclipse-java-luna-SR2-win32-x86_64\eclipse\plugins\org.apache-extras.beanshell.bsh_2.0.0.b6.jar:D:\Software\eclipse-java-luna-SR2-win32-x86_64\eclipse\plugins\org.yaml.snakeyaml_1.17.0.jar:D:\seleniumsoftware\selenium-server-standalone-3.8.0.jar org.testng.remote.RemoteTestNG -serport 56234 -protocol json -d D:\UdemyTutorialWorkSpace\UdemySelenium\test-output C:\Users\KAUSHA~1\AppData\Local\Temp\testng-eclipse-41248577\testng-customsuite.xml
+
+!ENTRY org.testng.eclipse 1 0 2018-06-09 11:54:46.986
+!MESSAGE [TestNGLaunchConfigurationDelegate] Launching:
+  Classpath: D:\Software\eclipse-java-luna-SR2-win32-x86_64\eclipse\configuration\org.eclipse.osgi\437\0\.cp\lib\testng-remote.jar D:\UdemyTutorialWorkSpace\UdemySelenium\bin D:\Software\eclipse-java-luna-SR2-win32-x86_64\eclipse\plugins\org.testng_6.14.2.r201802161450.jar D:\Software\eclipse-java-luna-SR2-win32-x86_64\eclipse\plugins\com.beust.jcommander_1.72.0.jar D:\Software\eclipse-java-luna-SR2-win32-x86_64\eclipse\plugins\org.apache-extras.beanshell.bsh_2.0.0.b6.jar D:\Software\eclipse-java-luna-SR2-win32-x86_64\eclipse\plugins\org.yaml.snakeyaml_1.17.0.jar D:\seleniumsoftware\selenium-server-standalone-3.8.0.jar
+  VMArgs:    -ea
+  Class:     org.testng.remote.RemoteTestNG
+  Args:      -serport 56334 -protocol json -d D:\UdemyTutorialWorkSpace\UdemySelenium\test-output C:\Users\KAUSHA~1\AppData\Local\Temp\testng-eclipse-245996289\testng-customsuite.xml
+java -ea -classpath D:\Software\eclipse-java-luna-SR2-win32-x86_64\eclipse\configuration\org.eclipse.osgi\437\0\.cp\lib\testng-remote.jar:D:\UdemyTutorialWorkSpace\UdemySelenium\bin:D:\Software\eclipse-java-luna-SR2-win32-x86_64\eclipse\plugins\org.testng_6.14.2.r201802161450.jar:D:\Software\eclipse-java-luna-SR2-win32-x86_64\eclipse\plugins\com.beust.jcommander_1.72.0.jar:D:\Software\eclipse-java-luna-SR2-win32-x86_64\eclipse\plugins\org.apache-extras.beanshell.bsh_2.0.0.b6.jar:D:\Software\eclipse-java-luna-SR2-win32-x86_64\eclipse\plugins\org.yaml.snakeyaml_1.17.0.jar:D:\seleniumsoftware\selenium-server-standalone-3.8.0.jar org.testng.remote.RemoteTestNG -serport 56334 -protocol json -d D:\UdemyTutorialWorkSpace\UdemySelenium\test-output C:\Users\KAUSHA~1\AppData\Local\Temp\testng-eclipse-245996289\testng-customsuite.xml
+
+!ENTRY org.testng.eclipse 1 0 2018-06-09 12:01:52.732
+!MESSAGE [TestNGLaunchConfigurationDelegate] Launching:
+  Classpath: D:\Software\eclipse-java-luna-SR2-win32-x86_64\eclipse\configuration\org.eclipse.osgi\437\0\.cp\lib\testng-remote.jar D:\UdemyTutorialWorkSpace\UdemySelenium\bin D:\Software\eclipse-java-luna-SR2-win32-x86_64\eclipse\plugins\org.testng_6.14.2.r201802161450.jar D:\Software\eclipse-java-luna-SR2-win32-x86_64\eclipse\plugins\com.beust.jcommander_1.72.0.jar D:\Software\eclipse-java-luna-SR2-win32-x86_64\eclipse\plugins\org.apache-extras.beanshell.bsh_2.0.0.b6.jar D:\Software\eclipse-java-luna-SR2-win32-x86_64\eclipse\plugins\org.yaml.snakeyaml_1.17.0.jar D:\seleniumsoftware\selenium-server-standalone-3.8.0.jar
+  VMArgs:    -ea
+  Class:     org.testng.remote.RemoteTestNG
+  Args:      -serport 56764 -protocol json -d D:\UdemyTutorialWorkSpace\UdemySelenium\test-output C:\Users\KAUSHA~1\AppData\Local\Temp\testng-eclipse-648440350\testng-customsuite.xml
+java -ea -classpath D:\Software\eclipse-java-luna-SR2-win32-x86_64\eclipse\configuration\org.eclipse.osgi\437\0\.cp\lib\testng-remote.jar:D:\UdemyTutorialWorkSpace\UdemySelenium\bin:D:\Software\eclipse-java-luna-SR2-win32-x86_64\eclipse\plugins\org.testng_6.14.2.r201802161450.jar:D:\Software\eclipse-java-luna-SR2-win32-x86_64\eclipse\plugins\com.beust.jcommander_1.72.0.jar:D:\Software\eclipse-java-luna-SR2-win32-x86_64\eclipse\plugins\org.apache-extras.beanshell.bsh_2.0.0.b6.jar:D:\Software\eclipse-java-luna-SR2-win32-x86_64\eclipse\plugins\org.yaml.snakeyaml_1.17.0.jar:D:\seleniumsoftware\selenium-server-standalone-3.8.0.jar org.testng.remote.RemoteTestNG -serport 56764 -protocol json -d D:\UdemyTutorialWorkSpace\UdemySelenium\test-output C:\Users\KAUSHA~1\AppData\Local\Temp\testng-eclipse-648440350\testng-customsuite.xml
+
+!ENTRY org.testng.eclipse 1 0 2018-06-09 12:09:32.650
+!MESSAGE [TestNGLaunchConfigurationDelegate] Launching:
+  Classpath: D:\Software\eclipse-java-luna-SR2-win32-x86_64\eclipse\configuration\org.eclipse.osgi\437\0\.cp\lib\testng-remote.jar D:\UdemyTutorialWorkSpace\UdemySelenium\bin D:\Software\eclipse-java-luna-SR2-win32-x86_64\eclipse\plugins\org.testng_6.14.2.r201802161450.jar D:\Software\eclipse-java-luna-SR2-win32-x86_64\eclipse\plugins\com.beust.jcommander_1.72.0.jar D:\Software\eclipse-java-luna-SR2-win32-x86_64\eclipse\plugins\org.apache-extras.beanshell.bsh_2.0.0.b6.jar D:\Software\eclipse-java-luna-SR2-win32-x86_64\eclipse\plugins\org.yaml.snakeyaml_1.17.0.jar D:\seleniumsoftware\selenium-server-standalone-3.8.0.jar
+  VMArgs:    -ea
+  Class:     org.testng.remote.RemoteTestNG
+  Args:      -serport 56917 -protocol json -d D:\UdemyTutorialWorkSpace\UdemySelenium\test-output C:\Users\KAUSHA~1\AppData\Local\Temp\testng-eclipse-1588612299\testng-customsuite.xml
+java -ea -classpath D:\Software\eclipse-java-luna-SR2-win32-x86_64\eclipse\configuration\org.eclipse.osgi\437\0\.cp\lib\testng-remote.jar:D:\UdemyTutorialWorkSpace\UdemySelenium\bin:D:\Software\eclipse-java-luna-SR2-win32-x86_64\eclipse\plugins\org.testng_6.14.2.r201802161450.jar:D:\Software\eclipse-java-luna-SR2-win32-x86_64\eclipse\plugins\com.beust.jcommander_1.72.0.jar:D:\Software\eclipse-java-luna-SR2-win32-x86_64\eclipse\plugins\org.apache-extras.beanshell.bsh_2.0.0.b6.jar:D:\Software\eclipse-java-luna-SR2-win32-x86_64\eclipse\plugins\org.yaml.snakeyaml_1.17.0.jar:D:\seleniumsoftware\selenium-server-standalone-3.8.0.jar org.testng.remote.RemoteTestNG -serport 56917 -protocol json -d D:\UdemyTutorialWorkSpace\UdemySelenium\test-output C:\Users\KAUSHA~1\AppData\Local\Temp\testng-eclipse-1588612299\testng-customsuite.xml
+
+!ENTRY org.testng.eclipse 1 0 2018-06-09 12:38:25.536
+!MESSAGE [TestNGLaunchConfigurationDelegate] Launching:
+  Classpath: D:\Software\eclipse-java-luna-SR2-win32-x86_64\eclipse\configuration\org.eclipse.osgi\437\0\.cp\lib\testng-remote.jar D:\UdemyTutorialWorkSpace\UdemySelenium\bin D:\Software\eclipse-java-luna-SR2-win32-x86_64\eclipse\plugins\org.testng_6.14.2.r201802161450.jar D:\Software\eclipse-java-luna-SR2-win32-x86_64\eclipse\plugins\com.beust.jcommander_1.72.0.jar D:\Software\eclipse-java-luna-SR2-win32-x86_64\eclipse\plugins\org.apache-extras.beanshell.bsh_2.0.0.b6.jar D:\Software\eclipse-java-luna-SR2-win32-x86_64\eclipse\plugins\org.yaml.snakeyaml_1.17.0.jar D:\seleniumsoftware\selenium-server-standalone-3.8.0.jar
+  VMArgs:    -ea
+  Class:     org.testng.remote.RemoteTestNG
+  Args:      -serport 57240 -protocol json -d D:\UdemyTutorialWorkSpace\UdemySelenium\test-output C:\Users\KAUSHA~1\AppData\Local\Temp\testng-eclipse-303847065\testng-customsuite.xml
+java -ea -classpath D:\Software\eclipse-java-luna-SR2-win32-x86_64\eclipse\configuration\org.eclipse.osgi\437\0\.cp\lib\testng-remote.jar:D:\UdemyTutorialWorkSpace\UdemySelenium\bin:D:\Software\eclipse-java-luna-SR2-win32-x86_64\eclipse\plugins\org.testng_6.14.2.r201802161450.jar:D:\Software\eclipse-java-luna-SR2-win32-x86_64\eclipse\plugins\com.beust.jcommander_1.72.0.jar:D:\Software\eclipse-java-luna-SR2-win32-x86_64\eclipse\plugins\org.apache-extras.beanshell.bsh_2.0.0.b6.jar:D:\Software\eclipse-java-luna-SR2-win32-x86_64\eclipse\plugins\org.yaml.snakeyaml_1.17.0.jar:D:\seleniumsoftware\selenium-server-standalone-3.8.0.jar org.testng.remote.RemoteTestNG -serport 57240 -protocol json -d D:\UdemyTutorialWorkSpace\UdemySelenium\test-output C:\Users\KAUSHA~1\AppData\Local\Temp\testng-eclipse-303847065\testng-customsuite.xml
+
+!ENTRY org.testng.eclipse 1 0 2018-06-09 12:41:17.211
+!MESSAGE [TestNGLaunchConfigurationDelegate] Launching:
+  Classpath: D:\Software\eclipse-java-luna-SR2-win32-x86_64\eclipse\configuration\org.eclipse.osgi\437\0\.cp\lib\testng-remote.jar D:\UdemyTutorialWorkSpace\UdemySelenium\bin D:\Software\eclipse-java-luna-SR2-win32-x86_64\eclipse\plugins\org.testng_6.14.2.r201802161450.jar D:\Software\eclipse-java-luna-SR2-win32-x86_64\eclipse\plugins\com.beust.jcommander_1.72.0.jar D:\Software\eclipse-java-luna-SR2-win32-x86_64\eclipse\plugins\org.apache-extras.beanshell.bsh_2.0.0.b6.jar D:\Software\eclipse-java-luna-SR2-win32-x86_64\eclipse\plugins\org.yaml.snakeyaml_1.17.0.jar D:\seleniumsoftware\selenium-server-standalone-3.8.0.jar
+  VMArgs:    -ea
+  Class:     org.testng.remote.RemoteTestNG
+  Args:      -serport 57589 -protocol json -d D:\UdemyTutorialWorkSpace\UdemySelenium\test-output C:\Users\KAUSHA~1\AppData\Local\Temp\testng-eclipse--1114120674\testng-customsuite.xml
+java -ea -classpath D:\Software\eclipse-java-luna-SR2-win32-x86_64\eclipse\configuration\org.eclipse.osgi\437\0\.cp\lib\testng-remote.jar:D:\UdemyTutorialWorkSpace\UdemySelenium\bin:D:\Software\eclipse-java-luna-SR2-win32-x86_64\eclipse\plugins\org.testng_6.14.2.r201802161450.jar:D:\Software\eclipse-java-luna-SR2-win32-x86_64\eclipse\plugins\com.beust.jcommander_1.72.0.jar:D:\Software\eclipse-java-luna-SR2-win32-x86_64\eclipse\plugins\org.apache-extras.beanshell.bsh_2.0.0.b6.jar:D:\Software\eclipse-java-luna-SR2-win32-x86_64\eclipse\plugins\org.yaml.snakeyaml_1.17.0.jar:D:\seleniumsoftware\selenium-server-standalone-3.8.0.jar org.testng.remote.RemoteTestNG -serport 57589 -protocol json -d D:\UdemyTutorialWorkSpace\UdemySelenium\test-output C:\Users\KAUSHA~1\AppData\Local\Temp\testng-eclipse--1114120674\testng-customsuite.xml
+
+!ENTRY org.testng.eclipse 1 0 2018-06-09 12:51:04.880
+!MESSAGE [TestNGLaunchConfigurationDelegate] Launching:
+  Classpath: D:\Software\eclipse-java-luna-SR2-win32-x86_64\eclipse\configuration\org.eclipse.osgi\437\0\.cp\lib\testng-remote.jar D:\UdemyTutorialWorkSpace\UdemySelenium\bin D:\Software\eclipse-java-luna-SR2-win32-x86_64\eclipse\plugins\org.testng_6.14.2.r201802161450.jar D:\Software\eclipse-java-luna-SR2-win32-x86_64\eclipse\plugins\com.beust.jcommander_1.72.0.jar D:\Software\eclipse-java-luna-SR2-win32-x86_64\eclipse\plugins\org.apache-extras.beanshell.bsh_2.0.0.b6.jar D:\Software\eclipse-java-luna-SR2-win32-x86_64\eclipse\plugins\org.yaml.snakeyaml_1.17.0.jar D:\seleniumsoftware\selenium-server-standalone-3.8.0.jar
+  VMArgs:    -ea
+  Class:     org.testng.remote.RemoteTestNG
+  Args:      -serport 57876 -protocol json -d D:\UdemyTutorialWorkSpace\UdemySelenium\test-output C:\Users\KAUSHA~1\AppData\Local\Temp\testng-eclipse-1921422265\testng-customsuite.xml
+java -ea -classpath D:\Software\eclipse-java-luna-SR2-win32-x86_64\eclipse\configuration\org.eclipse.osgi\437\0\.cp\lib\testng-remote.jar:D:\UdemyTutorialWorkSpace\UdemySelenium\bin:D:\Software\eclipse-java-luna-SR2-win32-x86_64\eclipse\plugins\org.testng_6.14.2.r201802161450.jar:D:\Software\eclipse-java-luna-SR2-win32-x86_64\eclipse\plugins\com.beust.jcommander_1.72.0.jar:D:\Software\eclipse-java-luna-SR2-win32-x86_64\eclipse\plugins\org.apache-extras.beanshell.bsh_2.0.0.b6.jar:D:\Software\eclipse-java-luna-SR2-win32-x86_64\eclipse\plugins\org.yaml.snakeyaml_1.17.0.jar:D:\seleniumsoftware\selenium-server-standalone-3.8.0.jar org.testng.remote.RemoteTestNG -serport 57876 -protocol json -d D:\UdemyTutorialWorkSpace\UdemySelenium\test-output C:\Users\KAUSHA~1\AppData\Local\Temp\testng-eclipse-1921422265\testng-customsuite.xml
+
+!ENTRY org.testng.eclipse 1 0 2018-06-09 13:48:23.888
+!MESSAGE [TestNGLaunchConfigurationDelegate] Launching:
+  Classpath: D:\Software\eclipse-java-luna-SR2-win32-x86_64\eclipse\configuration\org.eclipse.osgi\437\0\.cp\lib\testng-remote.jar D:\UdemyTutorialWorkSpace\UdemySelenium\bin D:\Software\eclipse-java-luna-SR2-win32-x86_64\eclipse\plugins\org.testng_6.14.2.r201802161450.jar D:\Software\eclipse-java-luna-SR2-win32-x86_64\eclipse\plugins\com.beust.jcommander_1.72.0.jar D:\Software\eclipse-java-luna-SR2-win32-x86_64\eclipse\plugins\org.apache-extras.beanshell.bsh_2.0.0.b6.jar D:\Software\eclipse-java-luna-SR2-win32-x86_64\eclipse\plugins\org.yaml.snakeyaml_1.17.0.jar D:\seleniumsoftware\selenium-server-standalone-3.8.0.jar
+  VMArgs:    -ea
+  Class:     org.testng.remote.RemoteTestNG
+  Args:      -serport 58388 -protocol json -d D:\UdemyTutorialWorkSpace\UdemySelenium\test-output C:\Users\KAUSHA~1\AppData\Local\Temp\testng-eclipse-651235854\testng-customsuite.xml
+java -ea -classpath D:\Software\eclipse-java-luna-SR2-win32-x86_64\eclipse\configuration\org.eclipse.osgi\437\0\.cp\lib\testng-remote.jar:D:\UdemyTutorialWorkSpace\UdemySelenium\bin:D:\Software\eclipse-java-luna-SR2-win32-x86_64\eclipse\plugins\org.testng_6.14.2.r201802161450.jar:D:\Software\eclipse-java-luna-SR2-win32-x86_64\eclipse\plugins\com.beust.jcommander_1.72.0.jar:D:\Software\eclipse-java-luna-SR2-win32-x86_64\eclipse\plugins\org.apache-extras.beanshell.bsh_2.0.0.b6.jar:D:\Software\eclipse-java-luna-SR2-win32-x86_64\eclipse\plugins\org.yaml.snakeyaml_1.17.0.jar:D:\seleniumsoftware\selenium-server-standalone-3.8.0.jar org.testng.remote.RemoteTestNG -serport 58388 -protocol json -d D:\UdemyTutorialWorkSpace\UdemySelenium\test-output C:\Users\KAUSHA~1\AppData\Local\Temp\testng-eclipse-651235854\testng-customsuite.xml
+
+!ENTRY org.testng.eclipse 1 0 2018-06-09 13:58:43.469
+!MESSAGE [TestNGLaunchConfigurationDelegate] Launching:
+  Classpath: D:\Software\eclipse-java-luna-SR2-win32-x86_64\eclipse\configuration\org.eclipse.osgi\437\0\.cp\lib\testng-remote.jar D:\UdemyTutorialWorkSpace\UdemySelenium\bin D:\Software\eclipse-java-luna-SR2-win32-x86_64\eclipse\plugins\org.testng_6.14.2.r201802161450.jar D:\Software\eclipse-java-luna-SR2-win32-x86_64\eclipse\plugins\com.beust.jcommander_1.72.0.jar D:\Software\eclipse-java-luna-SR2-win32-x86_64\eclipse\plugins\org.apache-extras.beanshell.bsh_2.0.0.b6.jar D:\Software\eclipse-java-luna-SR2-win32-x86_64\eclipse\plugins\org.yaml.snakeyaml_1.17.0.jar D:\seleniumsoftware\selenium-server-standalone-3.8.0.jar
+  VMArgs:    -ea
+  Class:     org.testng.remote.RemoteTestNG
+  Args:      -serport 58670 -protocol json -d D:\UdemyTutorialWorkSpace\UdemySelenium\test-output C:\Users\KAUSHA~1\AppData\Local\Temp\testng-eclipse-521080167\testng-customsuite.xml
+java -ea -classpath D:\Software\eclipse-java-luna-SR2-win32-x86_64\eclipse\configuration\org.eclipse.osgi\437\0\.cp\lib\testng-remote.jar:D:\UdemyTutorialWorkSpace\UdemySelenium\bin:D:\Software\eclipse-java-luna-SR2-win32-x86_64\eclipse\plugins\org.testng_6.14.2.r201802161450.jar:D:\Software\eclipse-java-luna-SR2-win32-x86_64\eclipse\plugins\com.beust.jcommander_1.72.0.jar:D:\Software\eclipse-java-luna-SR2-win32-x86_64\eclipse\plugins\org.apache-extras.beanshell.bsh_2.0.0.b6.jar:D:\Software\eclipse-java-luna-SR2-win32-x86_64\eclipse\plugins\org.yaml.snakeyaml_1.17.0.jar:D:\seleniumsoftware\selenium-server-standalone-3.8.0.jar org.testng.remote.RemoteTestNG -serport 58670 -protocol json -d D:\UdemyTutorialWorkSpace\UdemySelenium\test-output C:\Users\KAUSHA~1\AppData\Local\Temp\testng-eclipse-521080167\testng-customsuite.xml
+
+!ENTRY org.testng.eclipse 1 0 2018-06-09 14:01:38.592
+!MESSAGE [TestNGLaunchConfigurationDelegate] Launching:
+  Classpath: D:\Software\eclipse-java-luna-SR2-win32-x86_64\eclipse\configuration\org.eclipse.osgi\437\0\.cp\lib\testng-remote.jar D:\UdemyTutorialWorkSpace\UdemySelenium\bin D:\Software\eclipse-java-luna-SR2-win32-x86_64\eclipse\plugins\org.testng_6.14.2.r201802161450.jar D:\Software\eclipse-java-luna-SR2-win32-x86_64\eclipse\plugins\com.beust.jcommander_1.72.0.jar D:\Software\eclipse-java-luna-SR2-win32-x86_64\eclipse\plugins\org.apache-extras.beanshell.bsh_2.0.0.b6.jar D:\Software\eclipse-java-luna-SR2-win32-x86_64\eclipse\plugins\org.yaml.snakeyaml_1.17.0.jar D:\seleniumsoftware\selenium-server-standalone-3.8.0.jar
+  VMArgs:    -ea
+  Class:     org.testng.remote.RemoteTestNG
+  Args:      -serport 58948 -protocol json -d D:\UdemyTutorialWorkSpace\UdemySelenium\test-output C:\Users\KAUSHA~1\AppData\Local\Temp\testng-eclipse--161420053\testng-customsuite.xml
+java -ea -classpath D:\Software\eclipse-java-luna-SR2-win32-x86_64\eclipse\configuration\org.eclipse.osgi\437\0\.cp\lib\testng-remote.jar:D:\UdemyTutorialWorkSpace\UdemySelenium\bin:D:\Software\eclipse-java-luna-SR2-win32-x86_64\eclipse\plugins\org.testng_6.14.2.r201802161450.jar:D:\Software\eclipse-java-luna-SR2-win32-x86_64\eclipse\plugins\com.beust.jcommander_1.72.0.jar:D:\Software\eclipse-java-luna-SR2-win32-x86_64\eclipse\plugins\org.apache-extras.beanshell.bsh_2.0.0.b6.jar:D:\Software\eclipse-java-luna-SR2-win32-x86_64\eclipse\plugins\org.yaml.snakeyaml_1.17.0.jar:D:\seleniumsoftware\selenium-server-standalone-3.8.0.jar org.testng.remote.RemoteTestNG -serport 58948 -protocol json -d D:\UdemyTutorialWorkSpace\UdemySelenium\test-output C:\Users\KAUSHA~1\AppData\Local\Temp\testng-eclipse--161420053\testng-customsuite.xml
+
+!ENTRY org.testng.eclipse 1 0 2018-06-09 14:05:39.701
+!MESSAGE [TestNGLaunchConfigurationDelegate] Launching:
+  Classpath: D:\Software\eclipse-java-luna-SR2-win32-x86_64\eclipse\configuration\org.eclipse.osgi\437\0\.cp\lib\testng-remote.jar D:\UdemyTutorialWorkSpace\UdemySelenium\bin D:\Software\eclipse-java-luna-SR2-win32-x86_64\eclipse\plugins\org.testng_6.14.2.r201802161450.jar D:\Software\eclipse-java-luna-SR2-win32-x86_64\eclipse\plugins\com.beust.jcommander_1.72.0.jar D:\Software\eclipse-java-luna-SR2-win32-x86_64\eclipse\plugins\org.apache-extras.beanshell.bsh_2.0.0.b6.jar D:\Software\eclipse-java-luna-SR2-win32-x86_64\eclipse\plugins\org.yaml.snakeyaml_1.17.0.jar D:\seleniumsoftware\selenium-server-standalone-3.8.0.jar
+  VMArgs:    -ea
+  Class:     org.testng.remote.RemoteTestNG
+  Args:      -serport 59263 -protocol json -d D:\UdemyTutorialWorkSpace\UdemySelenium\test-output C:\Users\KAUSHA~1\AppData\Local\Temp\testng-eclipse--198185737\testng-customsuite.xml
+java -ea -classpath D:\Software\eclipse-java-luna-SR2-win32-x86_64\eclipse\configuration\org.eclipse.osgi\437\0\.cp\lib\testng-remote.jar:D:\UdemyTutorialWorkSpace\UdemySelenium\bin:D:\Software\eclipse-java-luna-SR2-win32-x86_64\eclipse\plugins\org.testng_6.14.2.r201802161450.jar:D:\Software\eclipse-java-luna-SR2-win32-x86_64\eclipse\plugins\com.beust.jcommander_1.72.0.jar:D:\Software\eclipse-java-luna-SR2-win32-x86_64\eclipse\plugins\org.apache-extras.beanshell.bsh_2.0.0.b6.jar:D:\Software\eclipse-java-luna-SR2-win32-x86_64\eclipse\plugins\org.yaml.snakeyaml_1.17.0.jar:D:\seleniumsoftware\selenium-server-standalone-3.8.0.jar org.testng.remote.RemoteTestNG -serport 59263 -protocol json -d D:\UdemyTutorialWorkSpace\UdemySelenium\test-output C:\Users\KAUSHA~1\AppData\Local\Temp\testng-eclipse--198185737\testng-customsuite.xml
+!SESSION 2018-06-09 19:19:40.022 -----------------------------------------------
+eclipse.buildId=4.4.2.M20150204-1700
+java.version=1.8.0_162
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_US
+Framework arguments:  -product org.eclipse.epp.package.java.product
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.java.product
+
+!ENTRY org.eclipse.egit.ui 2 0 2018-06-09 19:20:49.251
+!MESSAGE Warning: EGit couldn't detect the installation path "gitPrefix" of native Git. Hence EGit can't respect system level
+Git settings which might be configured in ${gitPrefix}/etc/gitconfig under the native Git installation directory.
+The most important of these settings is core.autocrlf. Git for Windows by default sets this parameter to true in
+this system level configuration. The Git installation location can be configured on the
+Team > Git > Configuration preference page's 'System Settings' tab.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.eclipse.egit.ui 2 0 2018-06-09 19:20:49.282
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\Kaushal_PC'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.testng.eclipse 1 0 2018-06-09 20:36:19.801
+!MESSAGE [TestNGLaunchConfigurationDelegate] Launching:
+  Classpath: D:\Software\eclipse-java-luna-SR2-win32-x86_64\eclipse\configuration\org.eclipse.osgi\437\0\.cp\lib\testng-remote.jar D:\UdemyTutorialWorkSpace\UdemySelenium\bin D:\Software\eclipse-java-luna-SR2-win32-x86_64\eclipse\plugins\org.testng_6.14.2.r201802161450.jar D:\Software\eclipse-java-luna-SR2-win32-x86_64\eclipse\plugins\com.beust.jcommander_1.72.0.jar D:\Software\eclipse-java-luna-SR2-win32-x86_64\eclipse\plugins\org.apache-extras.beanshell.bsh_2.0.0.b6.jar D:\Software\eclipse-java-luna-SR2-win32-x86_64\eclipse\plugins\org.yaml.snakeyaml_1.17.0.jar D:\seleniumsoftware\selenium-server-standalone-3.8.0.jar
+  VMArgs:    -ea
+  Class:     org.testng.remote.RemoteTestNG
+  Args:      -serport 63813 -protocol json -d D:\UdemyTutorialWorkSpace\UdemySelenium\test-output C:\Users\KAUSHA~1\AppData\Local\Temp\testng-eclipse-1285817385\testng-customsuite.xml
+java -ea -classpath D:\Software\eclipse-java-luna-SR2-win32-x86_64\eclipse\configuration\org.eclipse.osgi\437\0\.cp\lib\testng-remote.jar:D:\UdemyTutorialWorkSpace\UdemySelenium\bin:D:\Software\eclipse-java-luna-SR2-win32-x86_64\eclipse\plugins\org.testng_6.14.2.r201802161450.jar:D:\Software\eclipse-java-luna-SR2-win32-x86_64\eclipse\plugins\com.beust.jcommander_1.72.0.jar:D:\Software\eclipse-java-luna-SR2-win32-x86_64\eclipse\plugins\org.apache-extras.beanshell.bsh_2.0.0.b6.jar:D:\Software\eclipse-java-luna-SR2-win32-x86_64\eclipse\plugins\org.yaml.snakeyaml_1.17.0.jar:D:\seleniumsoftware\selenium-server-standalone-3.8.0.jar org.testng.remote.RemoteTestNG -serport 63813 -protocol json -d D:\UdemyTutorialWorkSpace\UdemySelenium\test-output C:\Users\KAUSHA~1\AppData\Local\Temp\testng-eclipse-1285817385\testng-customsuite.xml
+!SESSION 2018-06-16 21:10:14.014 -----------------------------------------------
+eclipse.buildId=4.4.2.M20150204-1700
+java.version=1.8.0_162
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_US
+Framework arguments:  -product org.eclipse.epp.package.java.product
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.java.product
+
+!ENTRY org.eclipse.egit.ui 2 0 2018-06-16 21:11:17.639
+!MESSAGE Warning: EGit couldn't detect the installation path "gitPrefix" of native Git. Hence EGit can't respect system level
+Git settings which might be configured in ${gitPrefix}/etc/gitconfig under the native Git installation directory.
+The most important of these settings is core.autocrlf. Git for Windows by default sets this parameter to true in
+this system level configuration. The Git installation location can be configured on the
+Team > Git > Configuration preference page's 'System Settings' tab.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.eclipse.egit.ui 2 0 2018-06-16 21:11:17.702
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\Kaushal_PC'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+!SESSION 2018-06-23 09:47:36.959 -----------------------------------------------
+eclipse.buildId=4.4.2.M20150204-1700
+java.version=1.8.0_162
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_US
+Framework arguments:  -product org.eclipse.epp.package.java.product
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.java.product
+
+!ENTRY org.eclipse.egit.ui 2 0 2018-06-23 09:48:38.798
+!MESSAGE Warning: EGit couldn't detect the installation path "gitPrefix" of native Git. Hence EGit can't respect system level
+Git settings which might be configured in ${gitPrefix}/etc/gitconfig under the native Git installation directory.
+The most important of these settings is core.autocrlf. Git for Windows by default sets this parameter to true in
+this system level configuration. The Git installation location can be configured on the
+Team > Git > Configuration preference page's 'System Settings' tab.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.eclipse.egit.ui 2 0 2018-06-23 09:48:38.830
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\Kaushal_PC'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.eclipse.equinox.event 4 0 2018-06-23 20:26:04.493
+!MESSAGE Exception while dispatching event org.osgi.service.event.Event [topic=org/eclipse/e4/ui/model/ui/UIElement/widget/SET] to handler org.eclipse.e4.ui.services.internal.events.UIEventHandler@228cb635
+!STACK 0
+java.lang.NullPointerException
+	at org.eclipse.ui.internal.NavigationHistory.getDisplay(NavigationHistory.java:176)
+	at org.eclipse.ui.internal.NavigationHistory.markEditor(NavigationHistory.java:193)
+	at org.eclipse.ui.internal.WorkbenchPage.updateActiveEditorSources(WorkbenchPage.java:407)
+	at org.eclipse.ui.internal.WorkbenchPage.firePartClosed(WorkbenchPage.java:4995)
+	at org.eclipse.ui.internal.e4.compatibility.CompatibilityPart$1.handleEvent(CompatibilityPart.java:98)
+	at org.eclipse.e4.ui.services.internal.events.UIEventHandler$1.run(UIEventHandler.java:40)
+	at org.eclipse.swt.widgets.Synchronizer.syncExec(Synchronizer.java:187)
+	at org.eclipse.ui.internal.UISynchronizer.syncExec(UISynchronizer.java:156)
+	at org.eclipse.swt.widgets.Display.syncExec(Display.java:4734)
+	at org.eclipse.e4.ui.internal.workbench.swt.E4Application$1.syncExec(E4Application.java:218)
+	at org.eclipse.e4.ui.services.internal.events.UIEventHandler.handleEvent(UIEventHandler.java:36)
+	at org.eclipse.equinox.internal.event.EventHandlerWrapper.handleEvent(EventHandlerWrapper.java:197)
+	at org.eclipse.equinox.internal.event.EventHandlerTracker.dispatchEvent(EventHandlerTracker.java:197)
+	at org.eclipse.equinox.internal.event.EventHandlerTracker.dispatchEvent(EventHandlerTracker.java:1)
+	at org.eclipse.osgi.framework.eventmgr.EventManager.dispatchEvent(EventManager.java:230)
+	at org.eclipse.osgi.framework.eventmgr.ListenerQueue.dispatchEventSynchronous(ListenerQueue.java:148)
+	at org.eclipse.equinox.internal.event.EventAdminImpl.dispatchEvent(EventAdminImpl.java:135)
+	at org.eclipse.equinox.internal.event.EventAdminImpl.sendEvent(EventAdminImpl.java:78)
+	at org.eclipse.equinox.internal.event.EventComponent.sendEvent(EventComponent.java:39)
+	at org.eclipse.e4.ui.services.internal.events.EventBroker.send(EventBroker.java:81)
+	at org.eclipse.e4.ui.internal.workbench.UIEventPublisher.notifyChanged(UIEventPublisher.java:59)
+	at org.eclipse.emf.common.notify.impl.BasicNotifierImpl.eNotify(BasicNotifierImpl.java:374)
+	at org.eclipse.e4.ui.model.application.ui.impl.UIElementImpl.setWidget(UIElementImpl.java:261)
+	at org.eclipse.e4.ui.workbench.renderers.swt.SWTPartRenderer.unbindWidget(SWTPartRenderer.java:150)
+	at org.eclipse.e4.ui.workbench.renderers.swt.SWTPartRenderer$1.widgetDisposed(SWTPartRenderer.java:138)
+	at org.eclipse.swt.widgets.TypedListener.handleEvent(TypedListener.java:123)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:84)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4353)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1061)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1085)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1066)
+	at org.eclipse.swt.widgets.Widget.release(Widget.java:816)
+	at org.eclipse.swt.widgets.Composite.releaseChildren(Composite.java:874)
+	at org.eclipse.swt.widgets.Widget.release(Widget.java:819)
+	at org.eclipse.swt.widgets.Composite.releaseChildren(Composite.java:874)
+	at org.eclipse.swt.widgets.Widget.release(Widget.java:819)
+	at org.eclipse.swt.widgets.Composite.releaseChildren(Composite.java:874)
+	at org.eclipse.swt.widgets.Widget.release(Widget.java:819)
+	at org.eclipse.swt.widgets.Composite.releaseChildren(Composite.java:874)
+	at org.eclipse.swt.widgets.Widget.release(Widget.java:819)
+	at org.eclipse.swt.widgets.Composite.releaseChildren(Composite.java:874)
+	at org.eclipse.swt.widgets.Widget.release(Widget.java:819)
+	at org.eclipse.swt.widgets.Composite.releaseChildren(Composite.java:874)
+	at org.eclipse.swt.widgets.Widget.release(Widget.java:819)
+	at org.eclipse.swt.widgets.Composite.releaseChildren(Composite.java:874)
+	at org.eclipse.swt.widgets.Widget.release(Widget.java:819)
+	at org.eclipse.swt.widgets.Composite.releaseChildren(Composite.java:874)
+	at org.eclipse.swt.widgets.Widget.release(Widget.java:819)
+	at org.eclipse.swt.widgets.Composite.releaseChildren(Composite.java:874)
+	at org.eclipse.swt.widgets.Canvas.releaseChildren(Canvas.java:165)
+	at org.eclipse.swt.widgets.Decorations.releaseChildren(Decorations.java:789)
+	at org.eclipse.swt.widgets.Shell.releaseChildren(Shell.java:1290)
+	at org.eclipse.swt.widgets.Widget.release(Widget.java:819)
+	at org.eclipse.swt.widgets.Widget.dispose(Widget.java:454)
+	at org.eclipse.swt.widgets.Decorations.dispose(Decorations.java:447)
+	at org.eclipse.swt.widgets.Shell.dispose(Shell.java:715)
+	at org.eclipse.swt.widgets.Display.release(Display.java:3811)
+	at org.eclipse.swt.graphics.Device.dispose(Device.java:295)
+	at org.eclipse.swt.widgets.Display.messageProc(Display.java:3292)
+	at org.eclipse.swt.internal.win32.OS.PeekMessageW(Native Method)
+	at org.eclipse.swt.internal.win32.OS.PeekMessage(OS.java:3141)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3756)
+	at org.eclipse.jface.window.Window.runEventLoop(Window.java:832)
+	at org.eclipse.jface.window.Window.open(Window.java:808)
+	at org.eclipse.jface.dialogs.MessageDialog.open(MessageDialog.java:341)
+	at org.eclipse.jface.dialogs.MessageDialogWithToggle.open(MessageDialogWithToggle.java:114)
+	at org.eclipse.jface.dialogs.MessageDialogWithToggle.openOkCancelConfirm(MessageDialogWithToggle.java:209)
+	at org.eclipse.ui.internal.ide.application.IDEWorkbenchWindowAdvisor.promptOnExit(IDEWorkbenchWindowAdvisor.java:218)
+	at org.eclipse.ui.internal.ide.application.IDEWorkbenchAdvisor$2.handleEvent(IDEWorkbenchAdvisor.java:171)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:84)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4353)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4346)
+	at org.eclipse.swt.widgets.Display.messageProc(Display.java:3305)
+	at org.eclipse.swt.internal.win32.OS.PeekMessageW(Native Method)
+	at org.eclipse.swt.internal.win32.OS.PeekMessage(OS.java:3141)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3756)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$9.run(PartRenderingEngine.java:1151)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:332)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1032)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:148)
+	at org.eclipse.ui.internal.Workbench$5.run(Workbench.java:636)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:332)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:579)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:150)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:135)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:196)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:134)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:104)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:380)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:235)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:648)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:603)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1465)
+!SESSION 2018-06-23 22:00:38.261 -----------------------------------------------
+eclipse.buildId=4.4.2.M20150204-1700
+java.version=1.8.0_162
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_US
+Framework arguments:  -product org.eclipse.epp.package.java.product
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.java.product
+
+!ENTRY org.eclipse.core.resources 2 10035 2018-06-23 22:00:53.812
+!MESSAGE The workspace exited with unsaved changes in the previous session; refreshing workspace to recover changes.
+
+!ENTRY org.eclipse.egit.ui 2 0 2018-06-23 22:01:30.625
+!MESSAGE Warning: EGit couldn't detect the installation path "gitPrefix" of native Git. Hence EGit can't respect system level
+Git settings which might be configured in ${gitPrefix}/etc/gitconfig under the native Git installation directory.
+The most important of these settings is core.autocrlf. Git for Windows by default sets this parameter to true in
+this system level configuration. The Git installation location can be configured on the
+Team > Git > Configuration preference page's 'System Settings' tab.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.eclipse.egit.ui 2 0 2018-06-23 22:01:30.672
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\Kaushal_PC'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.eclipse.equinox.p2.operations 2 0 2018-06-23 22:43:58.944
+!MESSAGE Operation details
+!SUBENTRY 1 org.eclipse.equinox.p2.operations 2 10001 2018-06-23 22:43:58.944
+!MESSAGE Your original request has been modified.
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 1 10006 2018-06-23 22:43:58.944
+!MESSAGE "Guava: Google Core Libraries for Java" is already present because other installed software requires it.  It will be added to the installed software list.
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 2 10005 2018-06-23 22:43:58.944
+!MESSAGE "TestNG" will be ignored because it is already installed.
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 2 10005 2018-06-23 22:43:58.944
+!MESSAGE "TestNG M2E (Maven) Integration (Optional)" will be ignored because it is already installed.
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 1 10006 2018-06-23 22:43:58.944
+!MESSAGE "TestNG P2 Feature" is already present because other installed software requires it.  It will be added to the installed software list.
+
+!ENTRY org.eclipse.equinox.p2.operations 2 0 2018-06-23 22:43:58.990
+!MESSAGE Operation details
+!SUBENTRY 1 org.eclipse.equinox.p2.operations 2 10001 2018-06-23 22:43:58.990
+!MESSAGE Your original request has been modified.
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 1 10006 2018-06-23 22:43:58.990
+!MESSAGE "Guava: Google Core Libraries for Java" is already present because other installed software requires it.  It will be added to the installed software list.
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 2 10005 2018-06-23 22:43:58.990
+!MESSAGE "TestNG" will be ignored because it is already installed.
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 2 10005 2018-06-23 22:43:58.990
+!MESSAGE "TestNG M2E (Maven) Integration (Optional)" will be ignored because it is already installed.
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 1 10006 2018-06-23 22:43:58.990
+!MESSAGE "TestNG P2 Feature" is already present because other installed software requires it.  It will be added to the installed software list.
+!SESSION 2018-06-23 22:44:15.095 -----------------------------------------------
+eclipse.buildId=4.4.2.M20150204-1700
+java.version=1.8.0_162
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_US
+Framework arguments:  -product org.eclipse.epp.package.java.product
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.java.product
+
+!ENTRY org.eclipse.core.resources 2 10035 2018-06-23 22:44:33.341
+!MESSAGE The workspace exited with unsaved changes in the previous session; refreshing workspace to recover changes.
+
+!ENTRY org.eclipse.egit.ui 2 0 2018-06-23 22:45:08.954
+!MESSAGE Warning: EGit couldn't detect the installation path "gitPrefix" of native Git. Hence EGit can't respect system level
+Git settings which might be configured in ${gitPrefix}/etc/gitconfig under the native Git installation directory.
+The most important of these settings is core.autocrlf. Git for Windows by default sets this parameter to true in
+this system level configuration. The Git installation location can be configured on the
+Team > Git > Configuration preference page's 'System Settings' tab.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.eclipse.egit.ui 2 0 2018-06-23 22:45:08.985
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\Kaushal_PC'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.testng.eclipse 1 0 2018-06-23 22:52:27.577
+!MESSAGE [TestNGLaunchConfigurationDelegate] Launching:
+  Classpath: D:\Software\eclipse-java-luna-SR2-win32-x86_64\eclipse\configuration\org.eclipse.osgi\437\0\.cp\lib\testng-remote.jar D:\UdemyTutorialWorkSpace\UdemySelenium\bin D:\seleniumsoftware\selenium-server-standalone-3.8.0.jar D:\Software\eclipse-java-luna-SR2-win32-x86_64\eclipse\plugins\org.junit_4.11.0.v201303080030\junit.jar D:\Software\eclipse-java-luna-SR2-win32-x86_64\eclipse\plugins\org.hamcrest.core_1.3.0.v201303031735.jar D:\Software\eclipse-java-luna-SR2-win32-x86_64\eclipse\plugins\org.testng_6.14.2.r201802161450.jar D:\Software\eclipse-java-luna-SR2-win32-x86_64\eclipse\plugins\com.beust.jcommander_1.72.0.jar D:\Software\eclipse-java-luna-SR2-win32-x86_64\eclipse\plugins\org.apache-extras.beanshell.bsh_2.0.0.b6.jar D:\Software\eclipse-java-luna-SR2-win32-x86_64\eclipse\plugins\org.yaml.snakeyaml_1.17.0.jar
+  VMArgs:    -ea
+  Class:     org.testng.remote.RemoteTestNG
+  Args:      -serport 56588 -protocol json -d D:\UdemyTutorialWorkSpace\UdemySelenium\test-output C:\Users\KAUSHA~1\AppData\Local\Temp\testng-eclipse--309274592\testng-customsuite.xml
+java -ea -classpath D:\Software\eclipse-java-luna-SR2-win32-x86_64\eclipse\configuration\org.eclipse.osgi\437\0\.cp\lib\testng-remote.jar:D:\UdemyTutorialWorkSpace\UdemySelenium\bin:D:\seleniumsoftware\selenium-server-standalone-3.8.0.jar:D:\Software\eclipse-java-luna-SR2-win32-x86_64\eclipse\plugins\org.junit_4.11.0.v201303080030\junit.jar:D:\Software\eclipse-java-luna-SR2-win32-x86_64\eclipse\plugins\org.hamcrest.core_1.3.0.v201303031735.jar:D:\Software\eclipse-java-luna-SR2-win32-x86_64\eclipse\plugins\org.testng_6.14.2.r201802161450.jar:D:\Software\eclipse-java-luna-SR2-win32-x86_64\eclipse\plugins\com.beust.jcommander_1.72.0.jar:D:\Software\eclipse-java-luna-SR2-win32-x86_64\eclipse\plugins\org.apache-extras.beanshell.bsh_2.0.0.b6.jar:D:\Software\eclipse-java-luna-SR2-win32-x86_64\eclipse\plugins\org.yaml.snakeyaml_1.17.0.jar org.testng.remote.RemoteTestNG -serport 56588 -protocol json -d D:\UdemyTutorialWorkSpace\UdemySelenium\test-output C:\Users\KAUSHA~1\AppData\Local\Temp\testng-eclipse--309274592\testng-customsuite.xml
+
+!ENTRY org.testng.eclipse 1 0 2018-06-23 22:55:23.010
+!MESSAGE [TestNGLaunchConfigurationDelegate] Launching:
+  Classpath: D:\Software\eclipse-java-luna-SR2-win32-x86_64\eclipse\configuration\org.eclipse.osgi\437\0\.cp\lib\testng-remote.jar D:\UdemyTutorialWorkSpace\UdemySelenium\bin D:\seleniumsoftware\selenium-server-standalone-3.8.0.jar D:\Software\eclipse-java-luna-SR2-win32-x86_64\eclipse\plugins\org.junit_4.11.0.v201303080030\junit.jar D:\Software\eclipse-java-luna-SR2-win32-x86_64\eclipse\plugins\org.hamcrest.core_1.3.0.v201303031735.jar D:\Software\eclipse-java-luna-SR2-win32-x86_64\eclipse\plugins\org.testng_6.14.2.r201802161450.jar D:\Software\eclipse-java-luna-SR2-win32-x86_64\eclipse\plugins\com.beust.jcommander_1.72.0.jar D:\Software\eclipse-java-luna-SR2-win32-x86_64\eclipse\plugins\org.apache-extras.beanshell.bsh_2.0.0.b6.jar D:\Software\eclipse-java-luna-SR2-win32-x86_64\eclipse\plugins\org.yaml.snakeyaml_1.17.0.jar
+  VMArgs:    -ea
+  Class:     org.testng.remote.RemoteTestNG
+  Args:      -serport 56835 -protocol json -d D:\UdemyTutorialWorkSpace\UdemySelenium\test-output C:\Users\KAUSHA~1\AppData\Local\Temp\testng-eclipse-721295857\testng-customsuite.xml
+java -ea -classpath D:\Software\eclipse-java-luna-SR2-win32-x86_64\eclipse\configuration\org.eclipse.osgi\437\0\.cp\lib\testng-remote.jar:D:\UdemyTutorialWorkSpace\UdemySelenium\bin:D:\seleniumsoftware\selenium-server-standalone-3.8.0.jar:D:\Software\eclipse-java-luna-SR2-win32-x86_64\eclipse\plugins\org.junit_4.11.0.v201303080030\junit.jar:D:\Software\eclipse-java-luna-SR2-win32-x86_64\eclipse\plugins\org.hamcrest.core_1.3.0.v201303031735.jar:D:\Software\eclipse-java-luna-SR2-win32-x86_64\eclipse\plugins\org.testng_6.14.2.r201802161450.jar:D:\Software\eclipse-java-luna-SR2-win32-x86_64\eclipse\plugins\com.beust.jcommander_1.72.0.jar:D:\Software\eclipse-java-luna-SR2-win32-x86_64\eclipse\plugins\org.apache-extras.beanshell.bsh_2.0.0.b6.jar:D:\Software\eclipse-java-luna-SR2-win32-x86_64\eclipse\plugins\org.yaml.snakeyaml_1.17.0.jar org.testng.remote.RemoteTestNG -serport 56835 -protocol json -d D:\UdemyTutorialWorkSpace\UdemySelenium\test-output C:\Users\KAUSHA~1\AppData\Local\Temp\testng-eclipse-721295857\testng-customsuite.xml
+
+!ENTRY org.testng.eclipse 1 0 2018-06-23 22:56:33.347
+!MESSAGE [TestNGLaunchConfigurationDelegate] Launching:
+  Classpath: D:\Software\eclipse-java-luna-SR2-win32-x86_64\eclipse\configuration\org.eclipse.osgi\437\0\.cp\lib\testng-remote.jar D:\UdemyTutorialWorkSpace\UdemySelenium\bin D:\seleniumsoftware\selenium-server-standalone-3.8.0.jar D:\Software\eclipse-java-luna-SR2-win32-x86_64\eclipse\plugins\org.junit_4.11.0.v201303080030\junit.jar D:\Software\eclipse-java-luna-SR2-win32-x86_64\eclipse\plugins\org.hamcrest.core_1.3.0.v201303031735.jar D:\Software\eclipse-java-luna-SR2-win32-x86_64\eclipse\plugins\org.testng_6.14.2.r201802161450.jar D:\Software\eclipse-java-luna-SR2-win32-x86_64\eclipse\plugins\com.beust.jcommander_1.72.0.jar D:\Software\eclipse-java-luna-SR2-win32-x86_64\eclipse\plugins\org.apache-extras.beanshell.bsh_2.0.0.b6.jar D:\Software\eclipse-java-luna-SR2-win32-x86_64\eclipse\plugins\org.yaml.snakeyaml_1.17.0.jar
+  VMArgs:    -ea
+  Class:     org.testng.remote.RemoteTestNG
+  Args:      -serport 56953 -protocol json -d D:\UdemyTutorialWorkSpace\UdemySelenium\test-output C:\Users\KAUSHA~1\AppData\Local\Temp\testng-eclipse-742765174\testng-customsuite.xml
+java -ea -classpath D:\Software\eclipse-java-luna-SR2-win32-x86_64\eclipse\configuration\org.eclipse.osgi\437\0\.cp\lib\testng-remote.jar:D:\UdemyTutorialWorkSpace\UdemySelenium\bin:D:\seleniumsoftware\selenium-server-standalone-3.8.0.jar:D:\Software\eclipse-java-luna-SR2-win32-x86_64\eclipse\plugins\org.junit_4.11.0.v201303080030\junit.jar:D:\Software\eclipse-java-luna-SR2-win32-x86_64\eclipse\plugins\org.hamcrest.core_1.3.0.v201303031735.jar:D:\Software\eclipse-java-luna-SR2-win32-x86_64\eclipse\plugins\org.testng_6.14.2.r201802161450.jar:D:\Software\eclipse-java-luna-SR2-win32-x86_64\eclipse\plugins\com.beust.jcommander_1.72.0.jar:D:\Software\eclipse-java-luna-SR2-win32-x86_64\eclipse\plugins\org.apache-extras.beanshell.bsh_2.0.0.b6.jar:D:\Software\eclipse-java-luna-SR2-win32-x86_64\eclipse\plugins\org.yaml.snakeyaml_1.17.0.jar org.testng.remote.RemoteTestNG -serport 56953 -protocol json -d D:\UdemyTutorialWorkSpace\UdemySelenium\test-output C:\Users\KAUSHA~1\AppData\Local\Temp\testng-eclipse-742765174\testng-customsuite.xml
+
+!ENTRY org.testng.eclipse 1 0 2018-06-23 23:01:37.209
+!MESSAGE [TestNGLaunchConfigurationDelegate] Launching:
+  Classpath: D:\Software\eclipse-java-luna-SR2-win32-x86_64\eclipse\configuration\org.eclipse.osgi\437\0\.cp\lib\testng-remote.jar D:\UdemyTutorialWorkSpace\UdemySelenium\bin D:\seleniumsoftware\selenium-server-standalone-3.8.0.jar D:\Software\eclipse-java-luna-SR2-win32-x86_64\eclipse\plugins\org.junit_4.11.0.v201303080030\junit.jar D:\Software\eclipse-java-luna-SR2-win32-x86_64\eclipse\plugins\org.hamcrest.core_1.3.0.v201303031735.jar D:\Software\eclipse-java-luna-SR2-win32-x86_64\eclipse\plugins\org.testng_6.14.2.r201802161450.jar D:\Software\eclipse-java-luna-SR2-win32-x86_64\eclipse\plugins\com.beust.jcommander_1.72.0.jar D:\Software\eclipse-java-luna-SR2-win32-x86_64\eclipse\plugins\org.apache-extras.beanshell.bsh_2.0.0.b6.jar D:\Software\eclipse-java-luna-SR2-win32-x86_64\eclipse\plugins\org.yaml.snakeyaml_1.17.0.jar
+  VMArgs:    -ea
+  Class:     org.testng.remote.RemoteTestNG
+  Args:      -serport 57387 -protocol json -d D:\UdemyTutorialWorkSpace\UdemySelenium\test-output C:\Users\KAUSHA~1\AppData\Local\Temp\testng-eclipse--1685342974\testng-customsuite.xml
+java -ea -classpath D:\Software\eclipse-java-luna-SR2-win32-x86_64\eclipse\configuration\org.eclipse.osgi\437\0\.cp\lib\testng-remote.jar:D:\UdemyTutorialWorkSpace\UdemySelenium\bin:D:\seleniumsoftware\selenium-server-standalone-3.8.0.jar:D:\Software\eclipse-java-luna-SR2-win32-x86_64\eclipse\plugins\org.junit_4.11.0.v201303080030\junit.jar:D:\Software\eclipse-java-luna-SR2-win32-x86_64\eclipse\plugins\org.hamcrest.core_1.3.0.v201303031735.jar:D:\Software\eclipse-java-luna-SR2-win32-x86_64\eclipse\plugins\org.testng_6.14.2.r201802161450.jar:D:\Software\eclipse-java-luna-SR2-win32-x86_64\eclipse\plugins\com.beust.jcommander_1.72.0.jar:D:\Software\eclipse-java-luna-SR2-win32-x86_64\eclipse\plugins\org.apache-extras.beanshell.bsh_2.0.0.b6.jar:D:\Software\eclipse-java-luna-SR2-win32-x86_64\eclipse\plugins\org.yaml.snakeyaml_1.17.0.jar org.testng.remote.RemoteTestNG -serport 57387 -protocol json -d D:\UdemyTutorialWorkSpace\UdemySelenium\test-output C:\Users\KAUSHA~1\AppData\Local\Temp\testng-eclipse--1685342974\testng-customsuite.xml
+
+!ENTRY org.testng.eclipse 1 0 2018-06-23 23:03:47.163
+!MESSAGE [TestNGLaunchConfigurationDelegate] Launching:
+  Classpath: D:\Software\eclipse-java-luna-SR2-win32-x86_64\eclipse\configuration\org.eclipse.osgi\437\0\.cp\lib\testng-remote.jar D:\UdemyTutorialWorkSpace\UdemySelenium\bin D:\seleniumsoftware\selenium-server-standalone-3.8.0.jar D:\Software\eclipse-java-luna-SR2-win32-x86_64\eclipse\plugins\org.junit_4.11.0.v201303080030\junit.jar D:\Software\eclipse-java-luna-SR2-win32-x86_64\eclipse\plugins\org.hamcrest.core_1.3.0.v201303031735.jar D:\Software\eclipse-java-luna-SR2-win32-x86_64\eclipse\plugins\org.testng_6.14.2.r201802161450.jar D:\Software\eclipse-java-luna-SR2-win32-x86_64\eclipse\plugins\com.beust.jcommander_1.72.0.jar D:\Software\eclipse-java-luna-SR2-win32-x86_64\eclipse\plugins\org.apache-extras.beanshell.bsh_2.0.0.b6.jar D:\Software\eclipse-java-luna-SR2-win32-x86_64\eclipse\plugins\org.yaml.snakeyaml_1.17.0.jar
+  VMArgs:    -ea
+  Class:     org.testng.remote.RemoteTestNG
+  Args:      -serport 57601 -protocol json -d D:\UdemyTutorialWorkSpace\UdemySelenium\test-output C:\Users\KAUSHA~1\AppData\Local\Temp\testng-eclipse-2061508736\testng-customsuite.xml
+java -ea -classpath D:\Software\eclipse-java-luna-SR2-win32-x86_64\eclipse\configuration\org.eclipse.osgi\437\0\.cp\lib\testng-remote.jar:D:\UdemyTutorialWorkSpace\UdemySelenium\bin:D:\seleniumsoftware\selenium-server-standalone-3.8.0.jar:D:\Software\eclipse-java-luna-SR2-win32-x86_64\eclipse\plugins\org.junit_4.11.0.v201303080030\junit.jar:D:\Software\eclipse-java-luna-SR2-win32-x86_64\eclipse\plugins\org.hamcrest.core_1.3.0.v201303031735.jar:D:\Software\eclipse-java-luna-SR2-win32-x86_64\eclipse\plugins\org.testng_6.14.2.r201802161450.jar:D:\Software\eclipse-java-luna-SR2-win32-x86_64\eclipse\plugins\com.beust.jcommander_1.72.0.jar:D:\Software\eclipse-java-luna-SR2-win32-x86_64\eclipse\plugins\org.apache-extras.beanshell.bsh_2.0.0.b6.jar:D:\Software\eclipse-java-luna-SR2-win32-x86_64\eclipse\plugins\org.yaml.snakeyaml_1.17.0.jar org.testng.remote.RemoteTestNG -serport 57601 -protocol json -d D:\UdemyTutorialWorkSpace\UdemySelenium\test-output C:\Users\KAUSHA~1\AppData\Local\Temp\testng-eclipse-2061508736\testng-customsuite.xml
+
+!ENTRY org.testng.eclipse 1 0 2018-06-23 23:04:37.870
+!MESSAGE [TestNGLaunchConfigurationDelegate] Launching:
+  Classpath: D:\Software\eclipse-java-luna-SR2-win32-x86_64\eclipse\configuration\org.eclipse.osgi\437\0\.cp\lib\testng-remote.jar D:\UdemyTutorialWorkSpace\UdemySelenium\bin D:\seleniumsoftware\selenium-server-standalone-3.8.0.jar D:\Software\eclipse-java-luna-SR2-win32-x86_64\eclipse\plugins\org.junit_4.11.0.v201303080030\junit.jar D:\Software\eclipse-java-luna-SR2-win32-x86_64\eclipse\plugins\org.hamcrest.core_1.3.0.v201303031735.jar D:\Software\eclipse-java-luna-SR2-win32-x86_64\eclipse\plugins\org.testng_6.14.2.r201802161450.jar D:\Software\eclipse-java-luna-SR2-win32-x86_64\eclipse\plugins\com.beust.jcommander_1.72.0.jar D:\Software\eclipse-java-luna-SR2-win32-x86_64\eclipse\plugins\org.apache-extras.beanshell.bsh_2.0.0.b6.jar D:\Software\eclipse-java-luna-SR2-win32-x86_64\eclipse\plugins\org.yaml.snakeyaml_1.17.0.jar
+  VMArgs:    -ea
+  Class:     org.testng.remote.RemoteTestNG
+  Args:      -serport 57701 -protocol json -d D:\UdemyTutorialWorkSpace\UdemySelenium\test-output C:\Users\KAUSHA~1\AppData\Local\Temp\testng-eclipse--1371728293\testng-customsuite.xml
+java -ea -classpath D:\Software\eclipse-java-luna-SR2-win32-x86_64\eclipse\configuration\org.eclipse.osgi\437\0\.cp\lib\testng-remote.jar:D:\UdemyTutorialWorkSpace\UdemySelenium\bin:D:\seleniumsoftware\selenium-server-standalone-3.8.0.jar:D:\Software\eclipse-java-luna-SR2-win32-x86_64\eclipse\plugins\org.junit_4.11.0.v201303080030\junit.jar:D:\Software\eclipse-java-luna-SR2-win32-x86_64\eclipse\plugins\org.hamcrest.core_1.3.0.v201303031735.jar:D:\Software\eclipse-java-luna-SR2-win32-x86_64\eclipse\plugins\org.testng_6.14.2.r201802161450.jar:D:\Software\eclipse-java-luna-SR2-win32-x86_64\eclipse\plugins\com.beust.jcommander_1.72.0.jar:D:\Software\eclipse-java-luna-SR2-win32-x86_64\eclipse\plugins\org.apache-extras.beanshell.bsh_2.0.0.b6.jar:D:\Software\eclipse-java-luna-SR2-win32-x86_64\eclipse\plugins\org.yaml.snakeyaml_1.17.0.jar org.testng.remote.RemoteTestNG -serport 57701 -protocol json -d D:\UdemyTutorialWorkSpace\UdemySelenium\test-output C:\Users\KAUSHA~1\AppData\Local\Temp\testng-eclipse--1371728293\testng-customsuite.xml
+
+!ENTRY org.testng.eclipse 1 0 2018-06-23 23:05:46.779
+!MESSAGE [TestNGLaunchConfigurationDelegate] Launching:
+  Classpath: D:\Software\eclipse-java-luna-SR2-win32-x86_64\eclipse\configuration\org.eclipse.osgi\437\0\.cp\lib\testng-remote.jar D:\UdemyTutorialWorkSpace\UdemySelenium\bin D:\seleniumsoftware\selenium-server-standalone-3.8.0.jar D:\Software\eclipse-java-luna-SR2-win32-x86_64\eclipse\plugins\org.junit_4.11.0.v201303080030\junit.jar D:\Software\eclipse-java-luna-SR2-win32-x86_64\eclipse\plugins\org.hamcrest.core_1.3.0.v201303031735.jar D:\Software\eclipse-java-luna-SR2-win32-x86_64\eclipse\plugins\org.testng_6.14.2.r201802161450.jar D:\Software\eclipse-java-luna-SR2-win32-x86_64\eclipse\plugins\com.beust.jcommander_1.72.0.jar D:\Software\eclipse-java-luna-SR2-win32-x86_64\eclipse\plugins\org.apache-extras.beanshell.bsh_2.0.0.b6.jar D:\Software\eclipse-java-luna-SR2-win32-x86_64\eclipse\plugins\org.yaml.snakeyaml_1.17.0.jar
+  VMArgs:    -ea
+  Class:     org.testng.remote.RemoteTestNG
+  Args:      -serport 57825 -protocol json -d D:\UdemyTutorialWorkSpace\UdemySelenium\test-output C:\Users\KAUSHA~1\AppData\Local\Temp\testng-eclipse--274901124\testng-customsuite.xml
+java -ea -classpath D:\Software\eclipse-java-luna-SR2-win32-x86_64\eclipse\configuration\org.eclipse.osgi\437\0\.cp\lib\testng-remote.jar:D:\UdemyTutorialWorkSpace\UdemySelenium\bin:D:\seleniumsoftware\selenium-server-standalone-3.8.0.jar:D:\Software\eclipse-java-luna-SR2-win32-x86_64\eclipse\plugins\org.junit_4.11.0.v201303080030\junit.jar:D:\Software\eclipse-java-luna-SR2-win32-x86_64\eclipse\plugins\org.hamcrest.core_1.3.0.v201303031735.jar:D:\Software\eclipse-java-luna-SR2-win32-x86_64\eclipse\plugins\org.testng_6.14.2.r201802161450.jar:D:\Software\eclipse-java-luna-SR2-win32-x86_64\eclipse\plugins\com.beust.jcommander_1.72.0.jar:D:\Software\eclipse-java-luna-SR2-win32-x86_64\eclipse\plugins\org.apache-extras.beanshell.bsh_2.0.0.b6.jar:D:\Software\eclipse-java-luna-SR2-win32-x86_64\eclipse\plugins\org.yaml.snakeyaml_1.17.0.jar org.testng.remote.RemoteTestNG -serport 57825 -protocol json -d D:\UdemyTutorialWorkSpace\UdemySelenium\test-output C:\Users\KAUSHA~1\AppData\Local\Temp\testng-eclipse--274901124\testng-customsuite.xml
+
+!ENTRY org.testng.eclipse 1 0 2018-06-23 23:10:04.378
+!MESSAGE [TestNGLaunchConfigurationDelegate] Launching:
+  Classpath: D:\Software\eclipse-java-luna-SR2-win32-x86_64\eclipse\configuration\org.eclipse.osgi\437\0\.cp\lib\testng-remote.jar D:\UdemyTutorialWorkSpace\UdemySelenium\bin D:\seleniumsoftware\selenium-server-standalone-3.8.0.jar D:\Software\eclipse-java-luna-SR2-win32-x86_64\eclipse\plugins\org.junit_4.11.0.v201303080030\junit.jar D:\Software\eclipse-java-luna-SR2-win32-x86_64\eclipse\plugins\org.hamcrest.core_1.3.0.v201303031735.jar D:\Software\eclipse-java-luna-SR2-win32-x86_64\eclipse\plugins\org.testng_6.14.2.r201802161450.jar D:\Software\eclipse-java-luna-SR2-win32-x86_64\eclipse\plugins\com.beust.jcommander_1.72.0.jar D:\Software\eclipse-java-luna-SR2-win32-x86_64\eclipse\plugins\org.apache-extras.beanshell.bsh_2.0.0.b6.jar D:\Software\eclipse-java-luna-SR2-win32-x86_64\eclipse\plugins\org.yaml.snakeyaml_1.17.0.jar
+  VMArgs:    -ea
+  Class:     org.testng.remote.RemoteTestNG
+  Args:      -serport 58254 -protocol json -d D:\UdemyTutorialWorkSpace\UdemySelenium\test-output C:\Users\KAUSHA~1\AppData\Local\Temp\testng-eclipse-549598801\testng-customsuite.xml
+java -ea -classpath D:\Software\eclipse-java-luna-SR2-win32-x86_64\eclipse\configuration\org.eclipse.osgi\437\0\.cp\lib\testng-remote.jar:D:\UdemyTutorialWorkSpace\UdemySelenium\bin:D:\seleniumsoftware\selenium-server-standalone-3.8.0.jar:D:\Software\eclipse-java-luna-SR2-win32-x86_64\eclipse\plugins\org.junit_4.11.0.v201303080030\junit.jar:D:\Software\eclipse-java-luna-SR2-win32-x86_64\eclipse\plugins\org.hamcrest.core_1.3.0.v201303031735.jar:D:\Software\eclipse-java-luna-SR2-win32-x86_64\eclipse\plugins\org.testng_6.14.2.r201802161450.jar:D:\Software\eclipse-java-luna-SR2-win32-x86_64\eclipse\plugins\com.beust.jcommander_1.72.0.jar:D:\Software\eclipse-java-luna-SR2-win32-x86_64\eclipse\plugins\org.apache-extras.beanshell.bsh_2.0.0.b6.jar:D:\Software\eclipse-java-luna-SR2-win32-x86_64\eclipse\plugins\org.yaml.snakeyaml_1.17.0.jar org.testng.remote.RemoteTestNG -serport 58254 -protocol json -d D:\UdemyTutorialWorkSpace\UdemySelenium\test-output C:\Users\KAUSHA~1\AppData\Local\Temp\testng-eclipse-549598801\testng-customsuite.xml
+
+!ENTRY org.testng.eclipse 1 0 2018-06-23 23:11:32.482
+!MESSAGE [TestNGLaunchConfigurationDelegate] Launching:
+  Classpath: D:\Software\eclipse-java-luna-SR2-win32-x86_64\eclipse\configuration\org.eclipse.osgi\437\0\.cp\lib\testng-remote.jar D:\UdemyTutorialWorkSpace\UdemySelenium\bin D:\seleniumsoftware\selenium-server-standalone-3.8.0.jar D:\Software\eclipse-java-luna-SR2-win32-x86_64\eclipse\plugins\org.junit_4.11.0.v201303080030\junit.jar D:\Software\eclipse-java-luna-SR2-win32-x86_64\eclipse\plugins\org.hamcrest.core_1.3.0.v201303031735.jar D:\Software\eclipse-java-luna-SR2-win32-x86_64\eclipse\plugins\org.testng_6.14.2.r201802161450.jar D:\Software\eclipse-java-luna-SR2-win32-x86_64\eclipse\plugins\com.beust.jcommander_1.72.0.jar D:\Software\eclipse-java-luna-SR2-win32-x86_64\eclipse\plugins\org.apache-extras.beanshell.bsh_2.0.0.b6.jar D:\Software\eclipse-java-luna-SR2-win32-x86_64\eclipse\plugins\org.yaml.snakeyaml_1.17.0.jar
+  VMArgs:    -ea
+  Class:     org.testng.remote.RemoteTestNG
+  Args:      -serport 58404 -protocol json -d D:\UdemyTutorialWorkSpace\UdemySelenium\test-output C:\Users\KAUSHA~1\AppData\Local\Temp\testng-eclipse-567940865\testng-customsuite.xml
+java -ea -classpath D:\Software\eclipse-java-luna-SR2-win32-x86_64\eclipse\configuration\org.eclipse.osgi\437\0\.cp\lib\testng-remote.jar:D:\UdemyTutorialWorkSpace\UdemySelenium\bin:D:\seleniumsoftware\selenium-server-standalone-3.8.0.jar:D:\Software\eclipse-java-luna-SR2-win32-x86_64\eclipse\plugins\org.junit_4.11.0.v201303080030\junit.jar:D:\Software\eclipse-java-luna-SR2-win32-x86_64\eclipse\plugins\org.hamcrest.core_1.3.0.v201303031735.jar:D:\Software\eclipse-java-luna-SR2-win32-x86_64\eclipse\plugins\org.testng_6.14.2.r201802161450.jar:D:\Software\eclipse-java-luna-SR2-win32-x86_64\eclipse\plugins\com.beust.jcommander_1.72.0.jar:D:\Software\eclipse-java-luna-SR2-win32-x86_64\eclipse\plugins\org.apache-extras.beanshell.bsh_2.0.0.b6.jar:D:\Software\eclipse-java-luna-SR2-win32-x86_64\eclipse\plugins\org.yaml.snakeyaml_1.17.0.jar org.testng.remote.RemoteTestNG -serport 58404 -protocol json -d D:\UdemyTutorialWorkSpace\UdemySelenium\test-output C:\Users\KAUSHA~1\AppData\Local\Temp\testng-eclipse-567940865\testng-customsuite.xml
+
+!ENTRY org.testng.eclipse 1 0 2018-06-23 23:13:04.850
+!MESSAGE [TestNGLaunchConfigurationDelegate] Launching:
+  Classpath: D:\Software\eclipse-java-luna-SR2-win32-x86_64\eclipse\configuration\org.eclipse.osgi\437\0\.cp\lib\testng-remote.jar D:\UdemyTutorialWorkSpace\UdemySelenium\bin D:\seleniumsoftware\selenium-server-standalone-3.8.0.jar D:\Software\eclipse-java-luna-SR2-win32-x86_64\eclipse\plugins\org.junit_4.11.0.v201303080030\junit.jar D:\Software\eclipse-java-luna-SR2-win32-x86_64\eclipse\plugins\org.hamcrest.core_1.3.0.v201303031735.jar D:\Software\eclipse-java-luna-SR2-win32-x86_64\eclipse\plugins\org.testng_6.14.2.r201802161450.jar D:\Software\eclipse-java-luna-SR2-win32-x86_64\eclipse\plugins\com.beust.jcommander_1.72.0.jar D:\Software\eclipse-java-luna-SR2-win32-x86_64\eclipse\plugins\org.apache-extras.beanshell.bsh_2.0.0.b6.jar D:\Software\eclipse-java-luna-SR2-win32-x86_64\eclipse\plugins\org.yaml.snakeyaml_1.17.0.jar
+  VMArgs:    -ea
+  Class:     org.testng.remote.RemoteTestNG
+  Args:      -serport 58562 -protocol json -d D:\UdemyTutorialWorkSpace\UdemySelenium\test-output C:\Users\KAUSHA~1\AppData\Local\Temp\testng-eclipse-1216797721\testng-customsuite.xml
+java -ea -classpath D:\Software\eclipse-java-luna-SR2-win32-x86_64\eclipse\configuration\org.eclipse.osgi\437\0\.cp\lib\testng-remote.jar:D:\UdemyTutorialWorkSpace\UdemySelenium\bin:D:\seleniumsoftware\selenium-server-standalone-3.8.0.jar:D:\Software\eclipse-java-luna-SR2-win32-x86_64\eclipse\plugins\org.junit_4.11.0.v201303080030\junit.jar:D:\Software\eclipse-java-luna-SR2-win32-x86_64\eclipse\plugins\org.hamcrest.core_1.3.0.v201303031735.jar:D:\Software\eclipse-java-luna-SR2-win32-x86_64\eclipse\plugins\org.testng_6.14.2.r201802161450.jar:D:\Software\eclipse-java-luna-SR2-win32-x86_64\eclipse\plugins\com.beust.jcommander_1.72.0.jar:D:\Software\eclipse-java-luna-SR2-win32-x86_64\eclipse\plugins\org.apache-extras.beanshell.bsh_2.0.0.b6.jar:D:\Software\eclipse-java-luna-SR2-win32-x86_64\eclipse\plugins\org.yaml.snakeyaml_1.17.0.jar org.testng.remote.RemoteTestNG -serport 58562 -protocol json -d D:\UdemyTutorialWorkSpace\UdemySelenium\test-output C:\Users\KAUSHA~1\AppData\Local\Temp\testng-eclipse-1216797721\testng-customsuite.xml
+
+!ENTRY org.testng.eclipse 1 0 2018-06-23 23:16:27.795
+!MESSAGE [TestNGLaunchConfigurationDelegate] Launching:
+  Classpath: D:\Software\eclipse-java-luna-SR2-win32-x86_64\eclipse\configuration\org.eclipse.osgi\437\0\.cp\lib\testng-remote.jar D:\UdemyTutorialWorkSpace\UdemySelenium\bin D:\seleniumsoftware\selenium-server-standalone-3.8.0.jar D:\Software\eclipse-java-luna-SR2-win32-x86_64\eclipse\plugins\org.junit_4.11.0.v201303080030\junit.jar D:\Software\eclipse-java-luna-SR2-win32-x86_64\eclipse\plugins\org.hamcrest.core_1.3.0.v201303031735.jar D:\Software\eclipse-java-luna-SR2-win32-x86_64\eclipse\plugins\org.testng_6.14.2.r201802161450.jar D:\Software\eclipse-java-luna-SR2-win32-x86_64\eclipse\plugins\com.beust.jcommander_1.72.0.jar D:\Software\eclipse-java-luna-SR2-win32-x86_64\eclipse\plugins\org.apache-extras.beanshell.bsh_2.0.0.b6.jar D:\Software\eclipse-java-luna-SR2-win32-x86_64\eclipse\plugins\org.yaml.snakeyaml_1.17.0.jar
+  VMArgs:    -ea
+  Class:     org.testng.remote.RemoteTestNG
+  Args:      -serport 58862 -protocol json -d D:\UdemyTutorialWorkSpace\UdemySelenium\test-output C:\Users\KAUSHA~1\AppData\Local\Temp\testng-eclipse--2027942471\testng-customsuite.xml
+java -ea -classpath D:\Software\eclipse-java-luna-SR2-win32-x86_64\eclipse\configuration\org.eclipse.osgi\437\0\.cp\lib\testng-remote.jar:D:\UdemyTutorialWorkSpace\UdemySelenium\bin:D:\seleniumsoftware\selenium-server-standalone-3.8.0.jar:D:\Software\eclipse-java-luna-SR2-win32-x86_64\eclipse\plugins\org.junit_4.11.0.v201303080030\junit.jar:D:\Software\eclipse-java-luna-SR2-win32-x86_64\eclipse\plugins\org.hamcrest.core_1.3.0.v201303031735.jar:D:\Software\eclipse-java-luna-SR2-win32-x86_64\eclipse\plugins\org.testng_6.14.2.r201802161450.jar:D:\Software\eclipse-java-luna-SR2-win32-x86_64\eclipse\plugins\com.beust.jcommander_1.72.0.jar:D:\Software\eclipse-java-luna-SR2-win32-x86_64\eclipse\plugins\org.apache-extras.beanshell.bsh_2.0.0.b6.jar:D:\Software\eclipse-java-luna-SR2-win32-x86_64\eclipse\plugins\org.yaml.snakeyaml_1.17.0.jar org.testng.remote.RemoteTestNG -serport 58862 -protocol json -d D:\UdemyTutorialWorkSpace\UdemySelenium\test-output C:\Users\KAUSHA~1\AppData\Local\Temp\testng-eclipse--2027942471\testng-customsuite.xml
+
+!ENTRY org.testng.eclipse 1 0 2018-06-23 23:18:01.861
+!MESSAGE [TestNGLaunchConfigurationDelegate] Launching:
+  Classpath: D:\Software\eclipse-java-luna-SR2-win32-x86_64\eclipse\configuration\org.eclipse.osgi\437\0\.cp\lib\testng-remote.jar D:\UdemyTutorialWorkSpace\UdemySelenium\bin D:\seleniumsoftware\selenium-server-standalone-3.8.0.jar D:\Software\eclipse-java-luna-SR2-win32-x86_64\eclipse\plugins\org.junit_4.11.0.v201303080030\junit.jar D:\Software\eclipse-java-luna-SR2-win32-x86_64\eclipse\plugins\org.hamcrest.core_1.3.0.v201303031735.jar D:\Software\eclipse-java-luna-SR2-win32-x86_64\eclipse\plugins\org.testng_6.14.2.r201802161450.jar D:\Software\eclipse-java-luna-SR2-win32-x86_64\eclipse\plugins\com.beust.jcommander_1.72.0.jar D:\Software\eclipse-java-luna-SR2-win32-x86_64\eclipse\plugins\org.apache-extras.beanshell.bsh_2.0.0.b6.jar D:\Software\eclipse-java-luna-SR2-win32-x86_64\eclipse\plugins\org.yaml.snakeyaml_1.17.0.jar
+  VMArgs:    -ea
+  Class:     org.testng.remote.RemoteTestNG
+  Args:      -serport 59019 -protocol json -d D:\UdemyTutorialWorkSpace\UdemySelenium\test-output C:\Users\KAUSHA~1\AppData\Local\Temp\testng-eclipse-762610653\testng-customsuite.xml
+java -ea -classpath D:\Software\eclipse-java-luna-SR2-win32-x86_64\eclipse\configuration\org.eclipse.osgi\437\0\.cp\lib\testng-remote.jar:D:\UdemyTutorialWorkSpace\UdemySelenium\bin:D:\seleniumsoftware\selenium-server-standalone-3.8.0.jar:D:\Software\eclipse-java-luna-SR2-win32-x86_64\eclipse\plugins\org.junit_4.11.0.v201303080030\junit.jar:D:\Software\eclipse-java-luna-SR2-win32-x86_64\eclipse\plugins\org.hamcrest.core_1.3.0.v201303031735.jar:D:\Software\eclipse-java-luna-SR2-win32-x86_64\eclipse\plugins\org.testng_6.14.2.r201802161450.jar:D:\Software\eclipse-java-luna-SR2-win32-x86_64\eclipse\plugins\com.beust.jcommander_1.72.0.jar:D:\Software\eclipse-java-luna-SR2-win32-x86_64\eclipse\plugins\org.apache-extras.beanshell.bsh_2.0.0.b6.jar:D:\Software\eclipse-java-luna-SR2-win32-x86_64\eclipse\plugins\org.yaml.snakeyaml_1.17.0.jar org.testng.remote.RemoteTestNG -serport 59019 -protocol json -d D:\UdemyTutorialWorkSpace\UdemySelenium\test-output C:\Users\KAUSHA~1\AppData\Local\Temp\testng-eclipse-762610653\testng-customsuite.xml
+!SESSION 2018-06-26 21:50:18.330 -----------------------------------------------
+eclipse.buildId=4.4.2.M20150204-1700
+java.version=1.8.0_162
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_US
+Framework arguments:  -product org.eclipse.epp.package.java.product
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.java.product
+
+!ENTRY org.eclipse.egit.ui 2 0 2018-06-26 21:52:01.513
+!MESSAGE Warning: EGit couldn't detect the installation path "gitPrefix" of native Git. Hence EGit can't respect system level
+Git settings which might be configured in ${gitPrefix}/etc/gitconfig under the native Git installation directory.
+The most important of these settings is core.autocrlf. Git for Windows by default sets this parameter to true in
+this system level configuration. The Git installation location can be configured on the
+Team > Git > Configuration preference page's 'System Settings' tab.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.eclipse.egit.ui 2 0 2018-06-26 21:52:01.673
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\Kaushal_PC'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.testng.eclipse 1 0 2018-06-26 22:17:28.136
+!MESSAGE [TestNGLaunchConfigurationDelegate] Launching:
+  Classpath: D:\Software\eclipse-java-luna-SR2-win32-x86_64\eclipse\configuration\org.eclipse.osgi\437\0\.cp\lib\testng-remote.jar D:\UdemyTutorialWorkSpace\UdemySelenium\bin D:\seleniumsoftware\selenium-server-standalone-3.8.0.jar D:\Software\eclipse-java-luna-SR2-win32-x86_64\eclipse\plugins\org.junit_4.11.0.v201303080030\junit.jar D:\Software\eclipse-java-luna-SR2-win32-x86_64\eclipse\plugins\org.hamcrest.core_1.3.0.v201303031735.jar D:\Software\eclipse-java-luna-SR2-win32-x86_64\eclipse\plugins\org.testng_6.14.2.r201802161450.jar D:\Software\eclipse-java-luna-SR2-win32-x86_64\eclipse\plugins\com.beust.jcommander_1.72.0.jar D:\Software\eclipse-java-luna-SR2-win32-x86_64\eclipse\plugins\org.apache-extras.beanshell.bsh_2.0.0.b6.jar D:\Software\eclipse-java-luna-SR2-win32-x86_64\eclipse\plugins\org.yaml.snakeyaml_1.17.0.jar
+  VMArgs:    -ea
+  Class:     org.testng.remote.RemoteTestNG
+  Args:      -serport 59831 -protocol json -d D:\UdemyTutorialWorkSpace\UdemySelenium\test-output C:\Users\KAUSHA~1\AppData\Local\Temp\testng-eclipse-894227111\testng-customsuite.xml
+java -ea -classpath D:\Software\eclipse-java-luna-SR2-win32-x86_64\eclipse\configuration\org.eclipse.osgi\437\0\.cp\lib\testng-remote.jar:D:\UdemyTutorialWorkSpace\UdemySelenium\bin:D:\seleniumsoftware\selenium-server-standalone-3.8.0.jar:D:\Software\eclipse-java-luna-SR2-win32-x86_64\eclipse\plugins\org.junit_4.11.0.v201303080030\junit.jar:D:\Software\eclipse-java-luna-SR2-win32-x86_64\eclipse\plugins\org.hamcrest.core_1.3.0.v201303031735.jar:D:\Software\eclipse-java-luna-SR2-win32-x86_64\eclipse\plugins\org.testng_6.14.2.r201802161450.jar:D:\Software\eclipse-java-luna-SR2-win32-x86_64\eclipse\plugins\com.beust.jcommander_1.72.0.jar:D:\Software\eclipse-java-luna-SR2-win32-x86_64\eclipse\plugins\org.apache-extras.beanshell.bsh_2.0.0.b6.jar:D:\Software\eclipse-java-luna-SR2-win32-x86_64\eclipse\plugins\org.yaml.snakeyaml_1.17.0.jar org.testng.remote.RemoteTestNG -serport 59831 -protocol json -d D:\UdemyTutorialWorkSpace\UdemySelenium\test-output C:\Users\KAUSHA~1\AppData\Local\Temp\testng-eclipse-894227111\testng-customsuite.xml
+
+!ENTRY org.testng.eclipse 1 0 2018-06-26 22:17:58.102
+!MESSAGE [TestNGLaunchConfigurationDelegate] Launching:
+  Classpath: D:\Software\eclipse-java-luna-SR2-win32-x86_64\eclipse\configuration\org.eclipse.osgi\437\0\.cp\lib\testng-remote.jar D:\UdemyTutorialWorkSpace\UdemySelenium\bin D:\seleniumsoftware\selenium-server-standalone-3.8.0.jar D:\Software\eclipse-java-luna-SR2-win32-x86_64\eclipse\plugins\org.junit_4.11.0.v201303080030\junit.jar D:\Software\eclipse-java-luna-SR2-win32-x86_64\eclipse\plugins\org.hamcrest.core_1.3.0.v201303031735.jar D:\Software\eclipse-java-luna-SR2-win32-x86_64\eclipse\plugins\org.testng_6.14.2.r201802161450.jar D:\Software\eclipse-java-luna-SR2-win32-x86_64\eclipse\plugins\com.beust.jcommander_1.72.0.jar D:\Software\eclipse-java-luna-SR2-win32-x86_64\eclipse\plugins\org.apache-extras.beanshell.bsh_2.0.0.b6.jar D:\Software\eclipse-java-luna-SR2-win32-x86_64\eclipse\plugins\org.yaml.snakeyaml_1.17.0.jar
+  VMArgs:    -ea
+  Class:     org.testng.remote.RemoteTestNG
+  Args:      -serport 59881 -protocol json -d D:\UdemyTutorialWorkSpace\UdemySelenium\test-output C:\Users\KAUSHA~1\AppData\Local\Temp\testng-eclipse-550307567\testng-customsuite.xml
+java -ea -classpath D:\Software\eclipse-java-luna-SR2-win32-x86_64\eclipse\configuration\org.eclipse.osgi\437\0\.cp\lib\testng-remote.jar:D:\UdemyTutorialWorkSpace\UdemySelenium\bin:D:\seleniumsoftware\selenium-server-standalone-3.8.0.jar:D:\Software\eclipse-java-luna-SR2-win32-x86_64\eclipse\plugins\org.junit_4.11.0.v201303080030\junit.jar:D:\Software\eclipse-java-luna-SR2-win32-x86_64\eclipse\plugins\org.hamcrest.core_1.3.0.v201303031735.jar:D:\Software\eclipse-java-luna-SR2-win32-x86_64\eclipse\plugins\org.testng_6.14.2.r201802161450.jar:D:\Software\eclipse-java-luna-SR2-win32-x86_64\eclipse\plugins\com.beust.jcommander_1.72.0.jar:D:\Software\eclipse-java-luna-SR2-win32-x86_64\eclipse\plugins\org.apache-extras.beanshell.bsh_2.0.0.b6.jar:D:\Software\eclipse-java-luna-SR2-win32-x86_64\eclipse\plugins\org.yaml.snakeyaml_1.17.0.jar org.testng.remote.RemoteTestNG -serport 59881 -protocol json -d D:\UdemyTutorialWorkSpace\UdemySelenium\test-output C:\Users\KAUSHA~1\AppData\Local\Temp\testng-eclipse-550307567\testng-customsuite.xml
+!SESSION 2018-06-27 21:41:15.743 -----------------------------------------------
+eclipse.buildId=4.4.2.M20150204-1700
+java.version=1.8.0_162
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_US
+Framework arguments:  -product org.eclipse.epp.package.java.product
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.java.product
+
+!ENTRY org.eclipse.egit.ui 2 0 2018-06-27 21:42:49.600
+!MESSAGE Warning: EGit couldn't detect the installation path "gitPrefix" of native Git. Hence EGit can't respect system level
+Git settings which might be configured in ${gitPrefix}/etc/gitconfig under the native Git installation directory.
+The most important of these settings is core.autocrlf. Git for Windows by default sets this parameter to true in
+this system level configuration. The Git installation location can be configured on the
+Team > Git > Configuration preference page's 'System Settings' tab.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.eclipse.egit.ui 2 0 2018-06-27 21:42:49.616
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\Kaushal_PC'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.testng.eclipse 1 0 2018-06-27 23:36:56.182
+!MESSAGE [TestNGLaunchConfigurationDelegate] Launching:
+  Classpath: D:\Software\eclipse-java-luna-SR2-win32-x86_64\eclipse\configuration\org.eclipse.osgi\437\0\.cp\lib\testng-remote.jar D:\UdemyTutorialWorkSpace\UdemySelenium\bin D:\seleniumsoftware\selenium-server-standalone-3.8.0.jar D:\Software\eclipse-java-luna-SR2-win32-x86_64\eclipse\plugins\org.junit_4.11.0.v201303080030\junit.jar D:\Software\eclipse-java-luna-SR2-win32-x86_64\eclipse\plugins\org.hamcrest.core_1.3.0.v201303031735.jar D:\Software\eclipse-java-luna-SR2-win32-x86_64\eclipse\plugins\org.testng_6.14.2.r201802161450.jar D:\Software\eclipse-java-luna-SR2-win32-x86_64\eclipse\plugins\com.beust.jcommander_1.72.0.jar D:\Software\eclipse-java-luna-SR2-win32-x86_64\eclipse\plugins\org.apache-extras.beanshell.bsh_2.0.0.b6.jar D:\Software\eclipse-java-luna-SR2-win32-x86_64\eclipse\plugins\org.yaml.snakeyaml_1.17.0.jar
+  VMArgs:    -ea
+  Class:     org.testng.remote.RemoteTestNG
+  Args:      -serport 50826 -protocol json -d D:\UdemyTutorialWorkSpace\UdemySelenium\test-output C:\Users\KAUSHA~1\AppData\Local\Temp\testng-eclipse-1705002500\testng-customsuite.xml
+java -ea -classpath D:\Software\eclipse-java-luna-SR2-win32-x86_64\eclipse\configuration\org.eclipse.osgi\437\0\.cp\lib\testng-remote.jar:D:\UdemyTutorialWorkSpace\UdemySelenium\bin:D:\seleniumsoftware\selenium-server-standalone-3.8.0.jar:D:\Software\eclipse-java-luna-SR2-win32-x86_64\eclipse\plugins\org.junit_4.11.0.v201303080030\junit.jar:D:\Software\eclipse-java-luna-SR2-win32-x86_64\eclipse\plugins\org.hamcrest.core_1.3.0.v201303031735.jar:D:\Software\eclipse-java-luna-SR2-win32-x86_64\eclipse\plugins\org.testng_6.14.2.r201802161450.jar:D:\Software\eclipse-java-luna-SR2-win32-x86_64\eclipse\plugins\com.beust.jcommander_1.72.0.jar:D:\Software\eclipse-java-luna-SR2-win32-x86_64\eclipse\plugins\org.apache-extras.beanshell.bsh_2.0.0.b6.jar:D:\Software\eclipse-java-luna-SR2-win32-x86_64\eclipse\plugins\org.yaml.snakeyaml_1.17.0.jar org.testng.remote.RemoteTestNG -serport 50826 -protocol json -d D:\UdemyTutorialWorkSpace\UdemySelenium\test-output C:\Users\KAUSHA~1\AppData\Local\Temp\testng-eclipse-1705002500\testng-customsuite.xml
