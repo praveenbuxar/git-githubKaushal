@@ -1,0 +1,8 @@
+<suite name="ERP_Login">
+<test name="test_01">
+<classes>
+<class name="ERP_Login.ERP_login">
+</class> 
+</classes>
+</test>
+</suite>

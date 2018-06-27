@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="28690" started-at="2017-03-21T07:43:57Z" finished-at="2017-03-21T07:44:26Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="28690" started-at="2017-03-21T07:43:57Z" finished-at="2017-03-21T07:44:26Z">
+      <class name="testng.Open_URL">
+        <test-method status="PASS" signature="f()[pri:0, instance:testng.Open_URL@6767c1fc]" name="f" duration-ms="28663" started-at="2017-03-21T13:13:57Z" finished-at="2017-03-21T13:14:26Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- f -->
+      </class> <!-- testng.Open_URL -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

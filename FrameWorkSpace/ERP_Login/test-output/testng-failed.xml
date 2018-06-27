@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [ERP]">
+  <test name="test_01(failed)">
+    <parameter name="browser" value="firefox"/>
+    <classes>
+      <class name="ERP_Login.LoginWithMultipleBrowser">
+        <methods>
+          <include name="afterTest"/>
+          <include name="beforeTest"/>
+          <include name="f"/>
+        </methods>
+      </class> <!-- ERP_Login.LoginWithMultipleBrowser -->
+    </classes>
+  </test> <!-- test_01(failed) -->
+  <test name="test_02(failed)">
+    <parameter name="browser" value="chrome"/>
+    <classes>
+      <class name="ERP_Login.LoginWithMultipleBrowser">
+        <methods>
+          <include name="afterTest"/>
+          <include name="beforeTest"/>
+          <include name="f"/>
+        </methods>
+      </class> <!-- ERP_Login.LoginWithMultipleBrowser -->
+    </classes>
+  </test> <!-- test_02(failed) -->
+</suite> <!-- Failed suite [ERP] -->

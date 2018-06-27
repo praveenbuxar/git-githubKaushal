@@ -1,0 +1,8 @@
+<suite name="HMS_FeedBack">
+<test name="test_01">
+<classes>
+<class name="HMS_Scenario.HMS_FeedBack">
+</class>
+</classes>
+</test>
+</suite>

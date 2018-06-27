@@ -1,0 +1,76 @@
+package com.components;
+
+import com.objectRepository.Create_Item_Master_locator;
+import com.utility.BaseClass;
+
+public class CreateItemMaster_metehods extends BaseClass 
+{
+	Create_Item_Master_locator locator=new Create_Item_Master_locator();
+	
+		public void login() throws Exception
+		{
+			click(locator.LoginRegister);
+			wait(3000);
+			type(locator.username,"admin");
+			type(locator.password,"admin");
+			select(locator.UserLanguage,"English");
+			click(locator.login);
+		}
+		public void inventory() throws Exception
+		{
+			click(locator.inventory);
+			wait(3000);
+		}
+		public void itemMaster() throws Exception
+		{
+			click(locator.itemMaster);
+			wait(3000);
+		}
+		public void basicInfo() throws Exception
+		{
+			select(locator.orgId,"MAS");
+		
+			click(locator.itemId);
+			click(locator.searchIcon);
+			switchwindow(1);
+			
+			wait(3000);
+		}
+		public void searchButton()throws Exception
+		{
+			click(locator.searchButton);
+			wait(3000);
+			
+			
+		}
+		public void clickSelect()throws Exception
+		{
+			click(locator.clickSelect);
+			wait(3000);
+			switchwindow(0);
+		}
+		public void itemDetails() throws Exception
+		{
+			select(locator.itemType,"Equipment");
+			wait(3000);
+			select(locator.UomId,"HR");
+			wait(3000);
+			select(locator.itemStatus,"Active");
+			wait(3000);
+			click(locator.manufacturing);
+			wait(3000);
+			select(locator.makeBuy,"BUY");
+			wait(3000);
+			select(locator.BomType,"Model");
+			wait(3000);
+			select(locator.wipSupplyType,"Bulk");
+			
+			
+		}
+		public void save()throws Exception
+		{
+			click(locator.saveButton);
+			
+		}
+
+}

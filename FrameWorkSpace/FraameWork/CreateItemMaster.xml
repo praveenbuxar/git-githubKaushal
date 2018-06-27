@@ -1,0 +1,10 @@
+<suite name="CreateItemMaster">
+<test name="test_01">
+<classes>
+<parameter name="TestCaseNo" value="2">
+<class name="testScripts.CreateItemMasterScenario">
+</class>
+</parameter>
+</classes>
+</test>
+</suite>

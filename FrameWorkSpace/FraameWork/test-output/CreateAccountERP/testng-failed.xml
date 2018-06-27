@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [CreateAccountERP]">
+  <test name="test_01(failed)">
+    <classes>
+      <class name="testScripts.CreateAccountERP_Scenario">
+        <methods>
+          <include name="f"/>
+          <include name="setUpSuiteDetails"/>
+          <include name="BeforeClass"/>
+          <include name="afterClass"/>
+          <include name="captureDesc"/>
+          <include name="afterSuite"/>
+        </methods>
+      </class> <!-- testScripts.CreateAccountERP_Scenario -->
+    </classes>
+  </test> <!-- test_01(failed) -->
+</suite> <!-- Failed suite [CreateAccountERP] -->

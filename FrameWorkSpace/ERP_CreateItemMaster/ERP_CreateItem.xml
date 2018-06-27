@@ -1,0 +1,8 @@
+<suite name="ERP_CreateItemMaster">
+<test name="test_01">
+<Classes>
+<class name="ERP_SCenario.ERP_ItemMAster">
+</class>
+</Classes>
+</test>
+</suite>

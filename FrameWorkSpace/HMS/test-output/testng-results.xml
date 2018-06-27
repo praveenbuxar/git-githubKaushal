@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="hms1" duration-ms="24269" started-at="2017-04-24T16:31:23Z" finished-at="2017-04-24T16:31:47Z">
+    <groups>
+    </groups>
+    <test name="test_02" duration-ms="10358" started-at="2017-04-24T16:31:23Z" finished-at="2017-04-24T16:31:33Z">
+      <class name="HMS_Scenario.HMS_Login">
+        <test-method status="PASS" signature="beforeTest(java.lang.String)[pri:0, instance:HMS_Scenario.HMS_Login@1794d431]" name="beforeTest" is-config="true" duration-ms="7379" started-at="2017-04-24T22:01:23Z" finished-at="2017-04-24T22:01:30Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method status="PASS" signature="f()[pri:0, instance:HMS_Scenario.HMS_Login@1794d431]" name="f" duration-ms="2845" started-at="2017-04-24T22:01:30Z" finished-at="2017-04-24T22:01:33Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- f -->
+        <test-method status="PASS" signature="afterTest()[pri:0, instance:HMS_Scenario.HMS_Login@1794d431]" name="afterTest" is-config="true" duration-ms="0" started-at="2017-04-24T22:01:33Z" finished-at="2017-04-24T22:01:33Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+      </class> <!-- HMS_Scenario.HMS_Login -->
+    </test> <!-- test_02 -->
+    <test name="test_01" duration-ms="24269" started-at="2017-04-24T16:31:23Z" finished-at="2017-04-24T16:31:47Z">
+      <class name="HMS_Scenario.HMS_Login">
+        <test-method status="PASS" signature="beforeTest(java.lang.String)[pri:0, instance:HMS_Scenario.HMS_Login@cb5822]" name="beforeTest" is-config="true" duration-ms="22513" started-at="2017-04-24T22:01:23Z" finished-at="2017-04-24T22:01:45Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method status="PASS" signature="f()[pri:0, instance:HMS_Scenario.HMS_Login@cb5822]" name="f" duration-ms="1736" started-at="2017-04-24T22:01:45Z" finished-at="2017-04-24T22:01:47Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- f -->
+        <test-method status="PASS" signature="afterTest()[pri:0, instance:HMS_Scenario.HMS_Login@cb5822]" name="afterTest" is-config="true" duration-ms="0" started-at="2017-04-24T22:01:47Z" finished-at="2017-04-24T22:01:47Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+      </class> <!-- HMS_Scenario.HMS_Login -->
+    </test> <!-- test_01 -->
+  </suite> <!-- hms1 -->
+</testng-results>

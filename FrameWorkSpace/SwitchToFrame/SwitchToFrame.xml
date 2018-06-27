@@ -1,0 +1,8 @@
+<suite name="way2SMS">
+<test name="test_01">
+<classes>
+<class name="WAY2SMS.way2SMS">
+</class>
+</classes>
+</test>
+</suite>

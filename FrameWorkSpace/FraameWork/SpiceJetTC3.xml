@@ -1,0 +1,10 @@
+<suite name="SpiceJetTC3">
+<test name="Test_02">
+<classes>
+<parameter name="TestCaseNo" value="2">
+<class name="testScripts.SpiceJetTC3Scenario">
+</class>
+</parameter>
+</classes>
+</test>
+</suite>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [SpiceJetTC3]">
+  <parameter name="TestCaseNo" value="2"/>
+  <test name="Test_02(failed)">
+    <parameter name="TestCaseNo" value="2"/>
+    <classes>
+      <class name="testScripts.SpiceJetTC3Scenario">
+        <methods>
+          <include name="setUpSuiteDetails"/>
+          <include name="BeforeClass"/>
+          <include name="f" invocation-numbers="0"/>
+          <include name="afterClass"/>
+          <include name="captureDesc"/>
+          <include name="afterSuite"/>
+        </methods>
+      </class> <!-- testScripts.SpiceJetTC3Scenario -->
+    </classes>
+  </test> <!-- Test_02(failed) -->
+</suite> <!-- Failed suite [SpiceJetTC3] -->

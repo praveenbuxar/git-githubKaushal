@@ -1,0 +1,22 @@
+package testScripts;
+
+import org.testng.annotations.Test;
+
+import components.CreateAccountERPMethod;
+import utility.BaseClass;
+
+public class CreateAccountERP_Scenario extends BaseClass
+{
+	CreateAccountERPMethod method=new CreateAccountERPMethod(readData);
+	//@Parameters("TestcaseNo")
+			@Test(description = "Scenario:1 - Test the functionality of Consumer with valid flow")
+		  public void f() throws Exception {
+			  System.out.println("Entered in the test method..................");
+			  readData.readTestDataFile("D:\\FrameWorkSpace\\FraameWork\\Resources\\ERP.xlsx", "2");
+			//  initializeRepository();
+			  method.launchApp();
+			  method.loginRegister();
+			  method.createAccount();
+			 
+  }
+}

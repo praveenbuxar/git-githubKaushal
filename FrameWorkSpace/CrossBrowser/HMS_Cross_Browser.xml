@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite" parallel="tests">
+  
+  <test name="chromeTestCases">
+  <parameter name="browsers" value="chrome"></parameter>
+  <classes>
+  <class name="CrossBrowserTesting.HMS_Cross_Browser"></class>
+  </classes>
+  </test>
+  
+  <test name="FireFoxTestCase">
+  <parameter name="browsers" value="firefox"></parameter>
+    <classes>
+      <class name="CrossBrowserTesting.HMS_Cross_Browser"/>
+    </classes>
+  </test> 
+  
+</suite> 

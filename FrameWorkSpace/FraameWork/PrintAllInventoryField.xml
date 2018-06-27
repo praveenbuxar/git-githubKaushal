@@ -1,0 +1,10 @@
+<suite name="PrintAllInventoryField">
+<test name="test_01">
+<classes>
+<parameter name="TestCaseNo" value="1">
+<class name="testScripts.PrintAllInventoryfieldScenario">
+</class>
+</parameter>
+</classes>
+</test>
+</suite>

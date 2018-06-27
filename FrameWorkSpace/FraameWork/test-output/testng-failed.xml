@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [CreateItemMaster]">
+  <parameter name="TestCaseNo" value="2"/>
+  <test name="test_01(failed)">
+    <parameter name="TestCaseNo" value="2"/>
+    <classes>
+      <class name="testScripts.CreateItemMasterScenario">
+        <methods>
+          <include name="setUpSuiteDetails"/>
+          <include name="BeforeClass"/>
+          <include name="f"/>
+          <include name="afterClass"/>
+          <include name="captureDesc"/>
+          <include name="afterSuite"/>
+        </methods>
+      </class> <!-- testScripts.CreateItemMasterScenario -->
+    </classes>
+  </test> <!-- test_01(failed) -->
+</suite> <!-- Failed suite [CreateItemMaster] -->

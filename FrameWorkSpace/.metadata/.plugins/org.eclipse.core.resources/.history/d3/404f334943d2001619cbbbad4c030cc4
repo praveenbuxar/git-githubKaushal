@@ -1,0 +1,35 @@
+package com.components;
+
+import com.objectRepository.ERP_Login_Locator1;
+import com.utility.BaseClass;
+import com.utility.ReadData;
+
+public class ERP_Login_method extends BaseClass
+{
+	ERP_Login_Locator1 locator=new ERP_Login_Locator1();
+	public ERP_Login_method(ReadData readData)
+	{
+		this.readData=readData;
+	}
+	public void launchApp() throws Exception
+	{
+		openBrowser("firefox");
+		openURL(readData.testDataValue.get("APPURL"));
+	}
+	public void login() throws Exception
+	{
+		click(locator.LoginRegister);
+		type(locator.username,readData.testDataValue.get("USERNAME"));
+		type(locator.password,readData.testDataValue.get("PASSWORD"));
+		select(locator.userLanguage,"English");
+		click(locator.login);
+	}
+	public void logout() throws Exception
+	{
+		click(locator.admin);
+		wait(3000);
+		click(locator.logout);
+		
+	}
+
+}

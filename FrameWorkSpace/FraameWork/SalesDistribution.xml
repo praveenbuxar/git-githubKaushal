@@ -1,0 +1,10 @@
+<suite name="SalesDistribution">
+<test name="test_01">
+<classes>
+<parameter name="TestCaseNo" value="1">
+<class name="testScripts.US1112_Scenario">
+</class>
+</parameter>
+</classes>
+</test>
+</suite>

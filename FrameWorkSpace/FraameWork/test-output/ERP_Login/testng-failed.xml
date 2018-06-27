@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [ERP_Login]">
+  <parameter name="TestCaseNo" value="1"/>
+  <test name="test_01(failed)">
+    <parameter name="TestCaseNo" value="1"/>
+    <classes>
+      <class name="testScripts.ERP_LoginScenario">
+        <methods>
+          <include name="setUpSuiteDetails"/>
+          <include name="BeforeClass"/>
+          <include name="f"/>
+          <include name="afterClass"/>
+          <include name="captureDesc"/>
+          <include name="afterSuite"/>
+        </methods>
+      </class> <!-- testScripts.ERP_LoginScenario -->
+    </classes>
+  </test> <!-- test_01(failed) -->
+</suite> <!-- Failed suite [ERP_Login] -->

@@ -1,0 +1,8 @@
+<suite name="HMS_PR">
+<test name="Test_01">
+<classes>
+<class="HMS_PR_Reg.HMS_PR_Registration">
+</class>
+</classes>
+</test>
+</suite>

@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename type &apos;DataDriven.DriverScript_ReTesting&apos; to &apos;HMSPR_Retesting&apos;&#x0D;&#x0A;- Original project: &apos;DataDrivenFrameWork&apos;&#x0D;&#x0A;- Original element: &apos;DataDriven.DriverScript_ReTesting&apos;&#x0D;&#x0A;- Renamed element: &apos;DataDriven.HMSPR_Retesting&apos;&#x0D;&#x0A;- Update references to refactored element&#x0D;&#x0A;- Update textual occurrences in comments and strings" description="Rename type &apos;DriverScript_ReTesting&apos;" flags="589830" id="org.eclipse.jdt.ui.rename.type" input="/src&lt;DataDriven{DriverScript_ReTesting.java[DriverScript_ReTesting" matchStrategy="1" name="HMSPR_Retesting" qualified="false" references="true" similarDeclarations="false" stamp="1484768635703" textual="false" version="1.0"/>
+</session>

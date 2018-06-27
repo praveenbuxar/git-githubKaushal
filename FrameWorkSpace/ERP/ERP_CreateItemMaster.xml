@@ -1,0 +1,8 @@
+<suite name="ERP_CreateItemMaster">
+	<test name="test_02">
+		<classes>
+			<class name="ERP_Login.CreateItemMaster">
+			</class>
+		</classes>
+	</test>
+</suite>

@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename resource &apos;ERP_CreateItemMaster/ERP_CreateItemMaster.xml&apos; to &apos;ERP_CreateItem.xml&apos;" description="Rename resource &apos;ERP_CreateItemMaster.xml&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="ERP_CreateItemMaster.xml" name="ERP_CreateItem.xml" stamp="1486057225949" updateReferences="true"/>
+</session>

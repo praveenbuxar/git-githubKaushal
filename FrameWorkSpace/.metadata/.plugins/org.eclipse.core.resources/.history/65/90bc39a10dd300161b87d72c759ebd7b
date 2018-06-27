@@ -1,0 +1,10 @@
+<Suite name="SearchItem">
+<test name="test-03">
+<classes>
+<parameter name="TestcaseNo" value="2">
+</parameter>
+<class name="com.testScripts.SearchItemScenario">
+</class>
+</classes>
+</test>
+</Suite>

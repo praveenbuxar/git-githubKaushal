@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="79475" started-at="2017-06-25T11:08:12Z" finished-at="2017-06-25T11:09:32Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="79475" started-at="2017-06-25T11:08:12Z" finished-at="2017-06-25T11:09:32Z">
+      <class name="ERP_Login.CreateItemMaster">
+        <test-method status="PASS" signature="beforeTest()[pri:0, instance:ERP_Login.CreateItemMaster@2b98378d]" name="beforeTest" is-config="true" duration-ms="44085" started-at="2017-06-25T16:38:12Z" finished-at="2017-06-25T16:38:56Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method status="PASS" signature="f()[pri:0, instance:ERP_Login.CreateItemMaster@2b98378d]" name="f" duration-ms="35346" started-at="2017-06-25T16:38:57Z" finished-at="2017-06-25T16:39:32Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- f -->
+        <test-method status="PASS" signature="afterTest()[pri:0, instance:ERP_Login.CreateItemMaster@2b98378d]" name="afterTest" is-config="true" duration-ms="1" started-at="2017-06-25T16:39:32Z" finished-at="2017-06-25T16:39:32Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+      </class> <!-- ERP_Login.CreateItemMaster -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

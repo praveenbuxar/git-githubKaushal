@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="ERP" parallel="test">
+<test name="test_01">
+<classes>
+<parameter name="browser" value="firefox">
+</parameter>
+<class name="ERP_Login.LoginWithMultipleBrowser">
+</class>
+</classes>
+</test>
+<test name="test_02">
+<classes>
+<parameter name="browser" value="chrome">
+</parameter>
+<class name="ERP_Login.LoginWithMultipleBrowser">
+</class>
+</classes>
+</test>
+</suite>
