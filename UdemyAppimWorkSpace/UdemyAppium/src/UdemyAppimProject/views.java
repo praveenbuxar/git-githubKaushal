@@ -1,0 +1,36 @@
+package UdemyAppimProject;
+
+import java.net.MalformedURLException;
+import java.net.URL;
+
+import io.appium.java_client.android.AndroidDriver;
+
+import org.openqa.selenium.By;
+import org.openqa.selenium.WebElement;
+import org.openqa.selenium.remote.DesiredCapabilities;
+
+public class views {
+
+	public static void main(String[] args) throws MalformedURLException 
+	{
+		DesiredCapabilities cap=new DesiredCapabilities();
+		cap.setCapability("platformName", "Android");
+		cap.setCapability("deviceName", "357a454e7d83");
+		cap.setCapability("appPackage", "io.appium.android.apis");
+		cap.setCapability("appActivity", "io.appium.android.apis.ApiDemos");
+		AndroidDriver<WebElement>driver=new AndroidDriver<WebElement>(new URL("http://127.0.0.1:4723/wd/hub"),cap);
+		driver.findElement(By.xpath("//android.widget.TextView[@text='Views']")).click();
+		System.out.println("clicking on views");
+		driver.findElement(By.id("android:id/text1")).click();
+		System.out.println("clicking on animation");
+		driver.findElement(By.xpath("//android.widget.TextView[@text='Shake']")).click();
+		System.out.println("clicking on shake");
+		driver.findElement(By.id("io.appium.android.apis:id/pw")).sendKeys("hello");
+		System.out.println("printing hello");
+		driver.findElement(By.xpath("//android.widget.Button[@text='LOGIN']")).click();
+		System.out.println("click on login");
+		
+
+	}
+
+}
